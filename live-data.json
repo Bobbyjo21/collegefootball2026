@@ -1,0 +1,13 @@
+{
+  "season": 2026,
+  "updatedAt": null,
+  "sources": {
+    "cfbd": false,
+    "weather": "Open-Meteo at simulation time"
+  },
+  "warnings": ["Run the Update CFB data workflow after adding CFBD_API_KEY."],
+  "teams": {},
+  "games": [],
+  "venues": {}
+}
+

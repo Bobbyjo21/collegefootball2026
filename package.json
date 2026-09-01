@@ -1,0 +1,11 @@
+{
+  "name": "saturday-lab-cfb-simulator",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-stats.mjs",
+    "test": "node scripts/test-normalize.mjs && node scripts/test-browser.mjs",
+    "serve": "npx serve ."
+  }
+}
