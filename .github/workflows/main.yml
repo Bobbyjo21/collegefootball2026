@@ -1,0 +1,37 @@
+name: Update CFB data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 10 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cfb-data-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download and normalize current statistics
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+          CFB_SEASON: ${{ vars.CFB_SEASON }}
+        run: node scripts/update-stats.mjs
+      - name: Test normalized data
+        run: npm test
+      - name: Commit changed data
+        run: |
+          git config user.name "CFB Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/live-data.json
+          git diff --cached --quiet || git commit -m "Update CFB data"
+          git push
