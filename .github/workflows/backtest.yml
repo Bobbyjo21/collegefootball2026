@@ -6,6 +6,8 @@ on:
       - 'backtest-2026.mjs'
       - '.github/workflows/backtest.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '25 * * * *'
 permissions:
   contents: write
 jobs:
