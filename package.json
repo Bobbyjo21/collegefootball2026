@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "update": "node scripts/update-stats.mjs",
-    "test": "node scripts/test-normalize.mjs && node scripts/test-browser.mjs",
+    "update": "node update-stats.mjs",
+    "test": "node test-normalize.mjs && node test-browser.mjs",
     "serve": "npx serve ."
   }
 }
