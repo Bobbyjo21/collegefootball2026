@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-26",
+  "goal": "Find pregame-identifiable unusual historical factors associated with 65%+ against spread",
+  "source": "backtests/2026-cfb.csv",
+  "method": "Exploratory exhaustive screen of 360 two-condition situational filters and four selection rules, using current BASE power ratings, scheduled kickoff timestamps, conference, recent form and odds. Train weeks 1-5, holdout weeks 6-8. No guarantee; multiple-comparison selection bias.",
+  "discoveredRule": {
+    "description": "Select HOME against spread when listed home team's static site power rating is below 0 and scheduled kickoff local time is before 18:00 America/Chicago.",
+    "train": {
+      "wins": 35,
+      "losses": 18,
+      "pushes": 2,
+      "accuracy": 66.04
+    },
+    "holdout": {
+      "wins": 26,
+      "losses": 13,
+      "pushes": 0,
+      "accuracy": 66.67
+    },
+    "overall": {
+      "wins": 61,
+      "losses": 31,
+      "pushes": 2,
+      "accuracy": 66.3,
+      "decisionCoverage": 92,
+      "completedGames": 432
+    },
+    "disclaimer": "Exploratory after 360 searches, not a forward validated signal. Site's fixed ratings are not archived as-of-week; coach-specific information not tested. Do not market it as a proven 66.3% strategy."
+  },
+  "otherChecks": "Prior 65% threshold screen of 627 model-confidence filters yielded none over 60% in both train and test with minimum sample sizes.",
+  "nextData": [
+    "Obtain coach tenure matchup history, only pregame dates",
+    "Obtain earlier seasons with dated odds",
+    "Extract prior-game unanswered scoring runs from play-by-play",
+    "Extract prior-game lead time and time of possession",
+    "Validate all rules on wholly new seasons before default recommendations"
+  ]
+}
