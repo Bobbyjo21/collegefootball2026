@@ -59,6 +59,13 @@ const output = normalizeData({
   talent, returning, boxScores, warnings
 });
 
+// Never replace a good published snapshot with an empty or malformed feed.
+if (Object.keys(output.teams).length < 100 || output.games.length < 100) {
+  throw new Error(
+    `CFB feed incomplete: ${Object.keys(output.teams).length} teams, ${output.games.length} games. Keeping previous published data.`
+  );
+}
+
 await fs.mkdir('data', { recursive: true });
 await fs.writeFile('data/live-data.json', JSON.stringify(output, null, 2) + '\n');
 
