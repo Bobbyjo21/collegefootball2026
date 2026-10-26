@@ -3,7 +3,7 @@ name: Update CFB data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 10 * * *"
+    - cron: "15 10,16,22 * * *"
 
 permissions:
   contents: write
@@ -25,7 +25,7 @@ jobs:
         env:
           CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
           CFB_SEASON: ${{ vars.CFB_SEASON }}
-        run: node scripts/update-stats.mjs
+        run: node update-stats.mjs
       - name: Test normalized data
         run: npm test
       - name: Commit changed data
