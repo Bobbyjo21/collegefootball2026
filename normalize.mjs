@@ -112,7 +112,7 @@ function addBoxMetrics(model, box) {
   assign(model, 'fourthDownPct', ratio(o.fourthdowneffmade, o.fourthdowneffattempts));
   assign(model, 'redZoneTdPct', ratio(o.redzoneattemptsmade, o.redzoneattemptsattempts));
   assign(model, 'turnoversGame', average(o.turnovers, g));
-  assign(model, 'sacksAllowed', average(o.sacksyardsmade, g));
+  // Sack rates are populated from the season totals: sacks = defense made, sacksOpponent = offense allowed.
   assign(model, 'tdIntRatio', ratio(o.passingtds, o.interceptions, 1));
   assign(model, 'fgPct', ratio(o.fieldgoalsmade, o.fieldgoalsattempts));
   assign(model, 'xpPct', ratio(o.extrapointsmade, o.extrapointsattempts));
@@ -130,7 +130,7 @@ function addBoxMetrics(model, box) {
   assign(model, 'yardsRushAllowed', ratio(d.rushingyards, d.rushingattempts, 1));
   assign(model, 'thirdDownAllowed', ratio(d.thirddowneffmade, d.thirddowneffattempts));
   assign(model, 'redZoneTdAllowed', ratio(d.redzoneattemptsmade, d.redzoneattemptsattempts));
-  assign(model, 'sacks', average(o.sacksyardsmade ?? o.sacks, g));
+  // Defense sacks are populated from the season totals below.
   assign(model, 'interceptions', average(o.passesintercepted, g));
   assign(model, 'forcedFumbles', average(o.fumblesrecovered, g));
   assign(model, 'defensiveTds', average((o.interceptiontds ?? 0) + (o.fumblereturntds ?? 0), g));
@@ -146,14 +146,17 @@ function addAdvancedMetrics(model, row, gamesPlayed) {
   assign(model, 'earlyDownEpa', number(off.standardDowns?.ppa));
   assign(model, 'playsGame', average(number(off.plays), gamesPlayed));
   assign(model, 'drivesGame', average(number(off.drives), gamesPlayed));
-  assign(model, 'startField', number(off.fieldPosition?.averageStart));
-  assign(model, 'oppStartField', number(def.fieldPosition?.averageStart));
-  assign(model, 'driveLength', ratio(number(off.openFieldYardsTotal), number(off.drives), 1));
+  // CFBD averageStart is yards TO the goal; the simulator uses yards
+  // from a team's OWN goal line for field-position inputs.
+  const start = number(off.fieldPosition?.averageStart);
+  const opponentStart = number(def.fieldPosition?.averageStart);
+  if (start !== null && start >= 0 && start <= 100) assign(model, 'startField', 100 - start);
+  if (opponentStart !== null && opponentStart >= 0 && opponentStart <= 100) assign(model, 'oppStartField', 100 - opponentStart);
   assign(model, 'havocAllowed', percent(off.havoc?.total));
   assign(model, 'havocRate', percent(def.havoc?.total));
 }
 
-export function normalizeData({ season, teams = [], venues = [], games = [], basicStats = [], advancedStats = [], ratings = [], talent = [], returning = [], boxScores = [], warnings = [] }) {
+export function normalizeData({ season, teams = [], venues = [], games = [], basicStats = [], advancedStats = [], ratings = [], talent = [], returning = [], boxScores = [], redZone = {}, warnings = [] }) {
   const output = {
     season,
     updatedAt: new Date().toISOString(),
@@ -206,7 +209,12 @@ export function normalizeData({ season, teams = [], venues = [], games = [], bas
       assign(model, 'roadRecordPct', ratio(summary.roadWins, summary.roadGames));
     }
     addBoxMetrics(model, boxes[name]);
+    if (gp && Number.isFinite(team.raw.sacks)) assign(model, 'sacks', team.raw.sacks / gp);
+    if (gp && Number.isFinite(team.raw.sacksOpponent)) assign(model, 'sacksAllowed', team.raw.sacksOpponent / gp);
     addAdvancedMetrics(model, advancedByTeam[name], gp);
+    const rz = redZone[name];
+    if (rz?.offenseTrips > 0) assign(model, 'redZoneTdPct', ratio(rz.offenseTds, rz.offenseTrips));
+    if (rz?.defenseTrips > 0) assign(model, 'redZoneTdAllowed', ratio(rz.defenseTds, rz.defenseTrips));
     const drives = model.drivesGame * gp;
     if (summary && drives > 0) {
       assign(model, 'pointsDrive', summary.points / drives);
