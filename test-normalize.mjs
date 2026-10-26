@@ -33,7 +33,7 @@ assert.equal(mock.teams.Nebraska.model.drivesGame, 11);
 assert.equal(mock.teams.Nebraska.dataWeight, .2);
 assert.equal(mock.venues[20].name, 'Kinnick Stadium');
 
-const livePath = new URL('../data/live-data.json', import.meta.url);
+const livePath = new URL('./data/live-data.json', import.meta.url);
 if (fs.existsSync(livePath)) {
   const live = JSON.parse(fs.readFileSync(livePath, 'utf8'));
   assert.ok(live && typeof live === 'object');
