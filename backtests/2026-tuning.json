@@ -1,0 +1,121 @@
+{
+  "season": 2026,
+  "source": "backtests/2026-cfb.csv",
+  "model": "Current simulator analytical projected margin, reconstructed pre-week statistics, fixed BASE ratings",
+  "method": "Grid searched power weights 0..1 by 0.05; home margin calibration -5..+6 by 0.5; train weeks 1-5 and held out weeks 6-8. Accuracy excludes pushes. Individual lines are historical provider lines, not verified closing snapshots. Parameter selection on train only; do not rank by holdout.",
+  "trainWeeks": "1-5",
+  "holdoutWeeks": "6-8",
+  "baseline": {
+    "overall": {
+      "wins": 204,
+      "losses": 216,
+      "pushes": 12,
+      "accuracy": 48.57
+    },
+    "train": {
+      "wins": 120,
+      "losses": 137,
+      "pushes": 8,
+      "accuracy": 46.69
+    },
+    "holdout": {
+      "wins": 84,
+      "losses": 79,
+      "pushes": 4,
+      "accuracy": 51.53
+    }
+  },
+  "ratingOnlyTuning": {
+    "powerWeight": 0.75,
+    "statWeight": 0.25,
+    "train": {
+      "wins": 126,
+      "losses": 131,
+      "pushes": 8,
+      "accuracy": 49.03
+    },
+    "holdout": {
+      "wins": 82,
+      "losses": 81,
+      "pushes": 4,
+      "accuracy": 50.31
+    },
+    "overall": {
+      "wins": 208,
+      "losses": 212,
+      "pushes": 12,
+      "accuracy": 49.52
+    }
+  },
+  "homeCalibrationAtExistingWeights": {
+    "homeMarginAdd": 3,
+    "train": {
+      "wins": 131,
+      "losses": 126,
+      "pushes": 8,
+      "accuracy": 50.97
+    },
+    "holdout": {
+      "wins": 89,
+      "losses": 74,
+      "pushes": 4,
+      "accuracy": 54.6
+    },
+    "overall": {
+      "wins": 220,
+      "losses": 200,
+      "pushes": 12,
+      "accuracy": 52.38
+    }
+  },
+  "jointTrainBest": {
+    "powerWeight": 0,
+    "homeMarginAdd": 6,
+    "train": {
+      "wins": 137,
+      "losses": 120,
+      "pushes": 8,
+      "accuracy": 53.31
+    },
+    "holdout": {
+      "wins": 89,
+      "losses": 74,
+      "pushes": 4,
+      "accuracy": 54.6
+    },
+    "overall": {
+      "wins": 226,
+      "losses": 194,
+      "pushes": 12,
+      "accuracy": 53.81
+    }
+  },
+  "alwaysHomeBenchmark": {
+    "train": {
+      "wins": 136,
+      "losses": 121,
+      "pushes": 8,
+      "accuracy": 52.92
+    },
+    "holdout": {
+      "wins": 91,
+      "losses": 72,
+      "pushes": 4,
+      "accuracy": 55.83
+    },
+    "overall": {
+      "wins": 227,
+      "losses": 193,
+      "pushes": 12,
+      "accuracy": 54.05
+    }
+  },
+  "conclusion": "No parameter tuning tested beat the always-home benchmark on the holdout. Do not deploy optimized weights as a predictive improvement. Existing site ratings may themselves contain in-season information; a robust test needs archived preseason/week-specific ratings, verified timestamps for odds, prior seasons, and a larger untouched test window.",
+  "next": [
+    "Archive model and market snapshots before kickoff",
+    "Add historical pregame ratings and multi-season testing",
+    "Rebuild as-of-game rather than as-of-week features",
+    "Test margin calibration against always-home and bookmaker baselines",
+    "Require held-out gains before changing production defaults"
+  ]
+}
