@@ -223,8 +223,13 @@ export function normalizeData({ season, teams = [], venues = [], games = [], bas
     const talentRow = talent.find(row => row.team === name), talentValue = number(talentRow?.talent);
     if (talentValue !== null && talentValues.length) assign(model, 'talentComposite', talentValues.filter(v => v <= talentValue).length / talentValues.length * 100);
     const returningRow = returningByTeam[name];
-    const returningValue = number(returningRow?.totalPPA ?? returningRow?.total ?? returningRow?.percentPPA);
-    if (returningValue !== null) assign(model, 'returningProduction', percent(returningValue));
+    // CFBD's totalPPA is a raw efficiency statistic, not the share of
+    // returning production. Prefer the explicit percentage field.
+    const returningValue = number(returningRow?.percentPPA ?? returningRow?.percentReturning);
+    if (returningValue !== null) {
+      const share = Math.abs(returningValue) <= 1 ? returningValue * 100 : returningValue;
+      if (share >= 0 && share <= 100) assign(model, 'returningProduction', share);
+    }
   }
 
   return output;
