@@ -15,6 +15,7 @@ const mock = normalizeData({
     { team: 'Iowa', offense: { successRate: .39, ppa: .01, totalPPA: 1, plays: 64, drives: 11, fieldPosition: { averageStart: 27 }, havoc: { total: .16 }, standardDowns: { ppa: .02 } }, defense: { ppa: .1, fieldPosition: { averageStart: 30 }, havoc: { total: .14 } } }
   ],
   ratings: [{ team: 'Nebraska', overall: 8, offense: 10, defense: 2, throughWeek: 1 }],
+  returning: [{ team: 'Nebraska', percentPPA: 0.61, totalPPA: 1.46 }],
   talent: [{ team: 'Nebraska', talent: 800 }, { team: 'Iowa', talent: 700 }],
   boxScores: [{ id: 100, teams: [
     { team: 'Nebraska', points: 28, stats: [{ category: 'totalYards', stat: '420' }, { category: 'rushingAttempts', stat: '40' }, { category: 'rushingYards', stat: '200' }, { category: 'netPassingYards', stat: '220' }, { category: 'completionAttempts', stat: '20-30' }, { category: 'thirdDownEff', stat: '7-14' }, { category: 'turnovers', stat: '1' }] },
@@ -26,6 +27,7 @@ assert.equal(mock.teams.Nebraska.gamesPlayed, 1);
 assert.equal(mock.teams.Nebraska.model.ppg, 28);
 assert.equal(mock.teams.Nebraska.model.pointsAllowed, 21);
 assert.equal(mock.teams.Nebraska.model.successRate, 48);
+assert.equal(mock.teams.Nebraska.model.returningProduction, 61);
 assert.equal(mock.teams.Nebraska.model.yardsGame, 420);
 assert.equal(mock.teams.Nebraska.model.yardsAllowed, 320);
 assert.equal(mock.teams.Nebraska.model.thirdDownPct, 50);
