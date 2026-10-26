@@ -1,0 +1,43 @@
+{
+  "goal": 65,
+  "season": 2026,
+  "gradedGames": 432,
+  "grading": "420 decisions, 12 pushes omitted",
+  "testDesign": "Train weeks 1-5, unseen test weeks 6-8; no outcome-derived game features",
+  "baselineAll": 48.57,
+  "experimentalFormHomeAll": 53.57,
+  "experimentalFormHomeHoldout": 56.44,
+  "alwaysHomeHoldout": 55.83,
+  "selectiveSearch": {
+    "configurations": 627,
+    "parameters": "Home calibration 0-8, form coefficient 0-0.6, minimum absolute projected edge 0-20, pick direction either/home/away",
+    "minimumTrainPicks": 30,
+    "minimumHoldoutPicks": 20,
+    "bestTrainingAccuracy": 54.55,
+    "bestTrainingConfig": {
+      "homeBias": 3,
+      "form": 0,
+      "edgeThreshold": 8,
+      "pickSide": "either",
+      "train": {
+        "wins": 18,
+        "losses": 15,
+        "accuracy": 54.55
+      },
+      "holdout": {
+        "wins": 16,
+        "losses": 15,
+        "accuracy": 51.61
+      }
+    },
+    "configsReaching60InBoth": 0
+  },
+  "additionalSearch": "Home-pick-only underdog/favorite market spread bands; none reached 65% train and holdout with minimum 20/12 decisions",
+  "conclusion": "No defensible 65% model established. Do not claim 65% or deploy a tiny-sample tuned strategy.",
+  "next": [
+    "Collect historical play-by-play, turnover margins, time of possession, unanswered point runs only from games already completed",
+    "Test across prior seasons using archived line timing and preseason power ratings",
+    "Calibrate on training seasons, require out-of-sample advantage on heldout seasons",
+    "Offer no-pick when quality or data coverage is insufficient; report number of bets, not accuracy alone"
+  ]
+}
