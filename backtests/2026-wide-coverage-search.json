@@ -1,0 +1,110 @@
+{
+  "season": 2026,
+  "asOf": "2026-10-26",
+  "goal": {
+    "accuracy": 65,
+    "minimumCoverage": "At least 75% of 432 completed games (324 games)"
+  },
+  "source": "backtests/2026-cfb.csv",
+  "features": [
+    "Pre-week last-three score margin minus prior season-to-date margin",
+    "Opponent-rating-adjusted recent scoring form",
+    "Recent points scored trend",
+    "Recent points allowed trend",
+    "Days-rest differential",
+    "Three-game winning streak differential",
+    "Fixed home margin calibration",
+    "Abstention when predicted spread edge is small"
+  ],
+  "search": {
+    "evaluated": 30000,
+    "candidatesMeetingCoverage": 10097,
+    "range": "Home adjustment -8 to +16; form coeff -1..1; opponent quality -0.7..0.7; scoring and defensive trend -0.7..0.7; rest -0.9..0.9; streak -2..2; edge-threshold 0..12",
+    "split": "Weeks 1-5 training, Weeks 6-8 holdout",
+    "minimumTrainingDecisions": 193,
+    "minimumHoldoutDecisions": 123
+  },
+  "baseline": {
+    "wins": 204,
+    "losses": 216,
+    "pushes": 12,
+    "accuracy": 48.57,
+    "games": 432
+  },
+  "previousExperimental": {
+    "wins": 225,
+    "losses": 195,
+    "pushes": 12,
+    "accuracy": 53.57,
+    "games": 432
+  },
+  "bestTrainingEligible": {
+    "parameters": {
+      "homeAdjustment": 8.972,
+      "scoringMomentum": 0.854,
+      "opponentAdjustedForm": -0.262,
+      "offensiveTrend": -0.237,
+      "defensiveTrend": 0.538,
+      "rest": -0.879,
+      "winningStreak": 0.284,
+      "edgeThreshold": 4
+    },
+    "train": {
+      "wins": 110,
+      "losses": 89,
+      "accuracy": 55.28
+    },
+    "holdout": {
+      "wins": 68,
+      "losses": 64,
+      "accuracy": 51.52
+    },
+    "combined": {
+      "wins": 178,
+      "losses": 153,
+      "pushes": 10,
+      "skipped": 91,
+      "accuracy": 53.78,
+      "gradedDecisions": 331
+    }
+  },
+  "bestInSampleAcrossAllWeeks": {
+    "parameters": {
+      "homeAdjustment": 12.432,
+      "scoringMomentum": 0.869,
+      "opponentAdjustedForm": -0.509,
+      "offensiveTrend": 0.645,
+      "defensiveTrend": -0.037,
+      "rest": 0.863,
+      "winningStreak": -0.394,
+      "edgeThreshold": 0
+    },
+    "train": {
+      "wins": 139,
+      "losses": 118,
+      "accuracy": 54.09
+    },
+    "holdout": {
+      "wins": 97,
+      "losses": 66,
+      "accuracy": 59.51
+    },
+    "combined": {
+      "wins": 236,
+      "losses": 184,
+      "pushes": 12,
+      "accuracy": 56.19,
+      "gradedDecisions": 420
+    },
+    "warning": "Retrospective winner chosen on whole dataset; 59.51% holdout is contaminated by its use for selection. Not a valid unseen prediction."
+  },
+  "candidatesReaching65PercentInTraining": 0,
+  "candidatesReaching65PercentOverall": 0,
+  "limitations": [
+    "Only 2026 weeks 1-8, no multiple-season out-of-time validation",
+    "Historically fixed power ratings may contain in-season lookahead",
+    "Only games with suitable lines and site roster ratings; previous-game momentum reconstructed from graded games, omitting some other games",
+    "No coach matchup history, drive-level time leading, time of possession or unanswered-point sequence incorporated in this sweep"
+  ],
+  "decision": "Do not swap live model to this hindsight-optimized configuration; collect richer historical data and test on genuinely new weeks."
+}
