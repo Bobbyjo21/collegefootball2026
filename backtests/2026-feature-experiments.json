@@ -1,0 +1,88 @@
+{
+  "season": 2026,
+  "createdAt": "2026-10-26",
+  "source": "backtests/2026-cfb.csv",
+  "n": 432,
+  "method": "Week-by-week prior-game scoring form reconstructed from historical graded FBS matchups only. Train Weeks 1-5, held-out Weeks 6-8. Held-out scores were not used to select coefficients, but the exploratory feature search creates multiple-comparison uncertainty. Home calibration is +6 points beyond existing site HFA. Live mode's data source includes additional prior games, so results are an approximation of live operation.",
+  "variants": [
+    {
+      "name": "Original Balanced",
+      "train": {
+        "wins": 120,
+        "losses": 137,
+        "pushes": 8,
+        "accuracy": 46.69
+      },
+      "holdout": {
+        "wins": 84,
+        "losses": 79,
+        "pushes": 4,
+        "accuracy": 51.53
+      },
+      "all": {
+        "wins": 204,
+        "losses": 216,
+        "pushes": 12,
+        "accuracy": 48.57
+      }
+    },
+    {
+      "name": "Experimental Form + Home",
+      "formula": "original projected home margin + (neutral ? 0 : 6) + 0.4 * (home last3-margin minus season margin - away last3-margin plus season margin), clipped recent-form component to +/-8 points",
+      "train": {
+        "wins": 133,
+        "losses": 124,
+        "pushes": 8,
+        "accuracy": 51.75
+      },
+      "holdout": {
+        "wins": 92,
+        "losses": 71,
+        "pushes": 4,
+        "accuracy": 56.44
+      },
+      "all": {
+        "wins": 225,
+        "losses": 195,
+        "pushes": 12,
+        "accuracy": 53.57
+      }
+    },
+    {
+      "name": "Always home benchmark",
+      "train": {
+        "wins": 136,
+        "losses": 121,
+        "pushes": 8,
+        "accuracy": 52.92
+      },
+      "holdout": {
+        "wins": 91,
+        "losses": 72,
+        "pushes": 4,
+        "accuracy": 55.83
+      },
+      "all": {
+        "wins": 227,
+        "losses": 193,
+        "pushes": 12,
+        "accuracy": 54.05
+      }
+    }
+  ],
+  "candidateFactors": [
+    "recent score margin vs prior season average",
+    "recent points scored",
+    "recent points conceded",
+    "opponent-rating adjusted momentum",
+    "days since last game",
+    "win streaks",
+    "experience in-season"
+  ],
+  "unavailableFactors": [
+    "true time of possession by possession",
+    "unanswered point runs",
+    "time spent leading or trailing"
+  ],
+  "warning": "Backtested model uses currently stored BASE power ratings which may have been updated in-season; historical odds are not verified as closing. Results are not proof of future edge. Do not market as profitable."
+}
