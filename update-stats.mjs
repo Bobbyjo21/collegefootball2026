@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import { normalizeData } from './normalize.mjs';
+import { summarizeRedZone } from './red-zone.mjs';
 
 const API = 'https://api.collegefootballdata.com';
 const apiKey = process.env.CFBD_API_KEY;
@@ -45,18 +46,42 @@ const [basicStats, advancedStats, ratings, talent, returning] = await Promise.al
   optional('Returning production', '/player/returning', { year: season })
 ]);
 
-const completedWeeks = [...new Set(games.filter(game => game.completed).map(game => game.week))].sort((a, b) => a - b);
+const completed = games.filter(game => game.completed);
+const completedWeeks = [...new Set(completed.map(game => game.week))].sort((a, b) => a - b);
+const completedIds = new Set(completed.map(game => game.id));
 const boxScores = [];
+const redZone = {};
+let redZoneComplete = true;
+
 for (const week of completedWeeks) {
-  const rows = await optional(`Week ${week} box scores`, '/games/teams', {
-    year: season, week, seasonType: 'both', classification: 'fbs'
-  });
+  const [rows, plays, drives] = await Promise.all([
+    optional(`Week ${week} box scores`, '/games/teams', {
+      year: season, week, seasonType: 'both', classification: 'fbs'
+    }),
+    optional(`Week ${week} plays`, '/plays', {
+      year: season, week, seasonType: 'both', classification: 'fbs'
+    }),
+    optional(`Week ${week} drives`, '/drives', {
+      year: season, week, seasonType: 'both', classification: 'fbs'
+    })
+  ]);
   boxScores.push(...rows);
+  console.log(`Week ${week}: ${rows.length} game boxes, ${plays.length} plays, ${drives.length} drives.`);
+  if (plays.length < 100 || drives.length < 20) {
+    redZoneComplete = false;
+    warnings.push(`Week ${week} red-zone feed incomplete; season red-zone rates omitted.`);
+    continue;
+  }
+  const weekly = summarizeRedZone(plays, drives, completedIds);
+  for (const [name, stats] of Object.entries(weekly)) {
+    const total = redZone[name] ??= { offenseTrips: 0, offenseTds: 0, defenseTrips: 0, defenseTds: 0 };
+    for (const key of Object.keys(total)) total[key] += stats[key];
+  }
 }
 
 const output = normalizeData({
   season, teams, venues, games, basicStats, advancedStats, ratings,
-  talent, returning, boxScores, warnings
+  talent, returning, boxScores, redZone: redZoneComplete ? redZone : {}, warnings
 });
 
 // Never replace a good published snapshot with an empty or malformed feed.
