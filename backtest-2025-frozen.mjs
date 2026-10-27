@@ -135,6 +135,7 @@ await fs.writeFile('backtests/2025-cfb.csv',csv.map(row=>row.map(esc).join(','))
 await fs.writeFile('backtests/2025-summary.json',JSON.stringify(summary,null,2)+'\n');
 console.log(JSON.stringify({...summary,missing:summary.missing.slice(0,5)},null,2));
 
+{
 const frozen=JSON.parse(await fs.readFile('backtests/2026-frozen-team-model.json','utf8'));
 const history=new Map();
 const histGet=name=>history.get(name)||[];
@@ -167,3 +168,5 @@ const wins=picks.filter(p=>p.grade==='Win').length,losses=picks.filter(p=>p.grad
 const crossReport={season:2025,asOf:new Date().toISOString(),model:'2026 frozen 14-feature + team-bias retrospective model',frozenModel:'backtests/2026-frozen-team-model.json',frozen2026:{wins:299,losses:121,pushes:12,accuracy:71.19},test2025:{wins,losses,pushes,accuracy:Number((100*wins/(wins+losses)).toFixed(2)),gradedDecisions:wins+losses,eligibleGames:results.length},byWeek:[...new Set(picks.map(p=>p.week))].sort((a,b)=>a-b).map(week=>{const p=picks.filter(x=>x.week===week),w=p.filter(x=>x.grade==='Win').length,l=p.filter(x=>x.grade==='Loss').length;return {week,wins:w,losses:l,pushes:p.filter(x=>x.grade==='Push').length,accuracy:w+l?Number((100*w/(w+l)).toFixed(2)):null}}),limitations:['The 2026 original projected margin is reconstructed from the current simulator and historical preweek stats; model rating priors may not be archived point-in-time','2026 team biases learned from final 2026 results, and some 2025 teams have no coefficient','Provider odds not timestamp verified','This is a backwards-year holdout with roster/coaching turnover; no refit was performed']};
 await fs.writeFile('backtests/2025-frozen-model-test.json',JSON.stringify(crossReport,null,2)+'\n');
 console.log('FROZEN MODEL 2025:',JSON.stringify(crossReport,null,2));
+
+}
