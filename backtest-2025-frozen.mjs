@@ -137,7 +137,7 @@ console.log(JSON.stringify({...summary,missing:summary.missing.slice(0,5)},null,
 
 const frozen=JSON.parse(await fs.readFile('backtests/2026-frozen-team-model.json','utf8'));
 const history=new Map();
-const get=name=>history.histGet(name)||[];
+const histGet=name=>history.get(name)||[];
 const avg=(arr,fn)=>arr.length?arr.reduce((sum,x)=>sum+fn(x),0)/arr.length:0;
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 const picks=[];
