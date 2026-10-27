@@ -137,12 +137,12 @@ console.log(JSON.stringify({...summary,missing:summary.missing.slice(0,5)},null,
 
 const frozen=JSON.parse(await fs.readFile('backtests/2026-frozen-team-model.json','utf8'));
 const history=new Map();
-const get=name=>history.get(name)||[];
+const get=name=>history.histGet(name)||[];
 const avg=(arr,fn)=>arr.length?arr.reduce((sum,x)=>sum+fn(x),0)/arr.length:0;
 const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
 const picks=[];
 for(const row of [...results].sort((a,b)=>a.date.localeCompare(b.date))){
- const h=get(row.home),a=get(row.away),recent=x=>x.slice(-3);
+ const h=histGet(row.home),a=histGet(row.away),recent=x=>x.slice(-3);
  const margin=x=>avg(x,z=>z.for-z.against);
  const off=x=>avg(x,z=>z.for),def=x=>avg(x,z=>z.against),ats=x=>avg(x,z=>z.ats);
  const form=(margin(recent(h))-margin(h))-(margin(recent(a))-margin(a));
@@ -160,7 +160,7 @@ for(const row of [...results].sort((a,b)=>a.date.localeCompare(b.date))){
  const grade=actual===0?'Push':score*actual>0?'Win':'Loss';
  picks.push({week:row.week,date:row.date,home:row.home,away:row.away,score,grade});
  for(const [name,scored,allowed,spreadResult] of [[row.home,row.actualHome,row.actualAway,actual],[row.away,row.actualAway,row.actualHome,-actual]]){
- history.set(name,[...get(name),{for:scored,against:allowed,ats:spreadResult,date:row.date}]);
+ history.set(name,[...histGet(name),{for:scored,against:allowed,ats:spreadResult,date:row.date}]);
  }
 }
 const wins=picks.filter(p=>p.grade==='Win').length,losses=picks.filter(p=>p.grade==='Loss').length,pushes=picks.filter(p=>p.grade==='Push').length;
