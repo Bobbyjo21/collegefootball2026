@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 const API='https://api.collegefootballdata.com';
 const key=process.env.CFBD_API_KEY;
 if(!key) throw Error('CFBD_API_KEY secret is required');
-const first=2022,last=2026,trainingEnd=2025;
+const first=2022,lastYear=2026,trainingEnd=2025;
 async function get(path,params={}){
  const url=new URL(API+path);
  Object.entries(params).forEach(([k,v])=>url.searchParams.set(k,String(v)));
@@ -16,7 +16,7 @@ async function get(path,params={}){
 }
 async function maybe(path,params){try{return await get(path,params)}catch(e){console.warn(e.message);return []}}
 const data={};
-for(let year=first;year<=last;year++){
+for(let year=first;year<=lastYear;year++){
  const [games,lines,coaches]=await Promise.all([
   get('/games',{year,seasonType:'regular',classification:'fbs'}),
   year>=2023?get('/lines',{year,seasonType:'regular'}):Promise.resolve([]),
