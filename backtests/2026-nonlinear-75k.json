@@ -1,0 +1,131 @@
+{
+  "asOf": "2026-10-27",
+  "purpose": "Retrospective nonlinear spread model experiments with at least 75% game coverage",
+  "coverageDefinition": "At least 193 decisions in 2026 weeks1-5 training and 123 in weeks6-8 holdout, ≥316 combined plus pushes; best candidates covered 337-387 graded decisions of 420 nonpush games",
+  "source": "backtests/2026-cfb.csv plus current site BASE ratings",
+  "featureTerms": [
+    "intercept",
+    "original margin/7",
+    "recent 3-v-season margin/10",
+    "opponent-adjusted recent-form/10",
+    "recent points-scored differential/10",
+    "recent points-allowed differential/10",
+    "rest-day diff/7",
+    "3-game win trend/3",
+    "signed sqrt momentum",
+    "momentum × opponent quality",
+    "offense × defense trends",
+    "momentum × power ratings",
+    "absolute spread/14",
+    "sign original edge × quality",
+    "home favorite indicator",
+    "early kickoff UTC indicator",
+    "unequal short rest flag",
+    "ratings gap/20"
+  ],
+  "training": "Weeks1-5",
+  "holdout": "Weeks6-8",
+  "trials": 75000,
+  "qualified": 17914,
+  "reaching65": 0,
+  "bestTrain": {
+    "weights": [
+      1.23,
+      0.47,
+      -0.62,
+      -0.58,
+      0.77,
+      0.38,
+      -0.58,
+      0.39,
+      -0.64,
+      -0.44,
+      -0.41,
+      0.69,
+      -0.9,
+      0.77,
+      -1,
+      0.98,
+      0.25,
+      -0.28
+    ],
+    "threshold": 0.2,
+    "train": {
+      "wins": 133,
+      "losses": 100,
+      "pushes": 8,
+      "skipped": 24,
+      "n": 233,
+      "pct": 57.08
+    },
+    "holdout": {
+      "wins": 86,
+      "losses": 68,
+      "pushes": 4,
+      "skipped": 9,
+      "n": 154,
+      "pct": 55.84
+    },
+    "all": {
+      "wins": 219,
+      "losses": 168,
+      "pushes": 12,
+      "decisions": 387,
+      "pct": 56.59
+    }
+  },
+  "bestAll": {
+    "weights": [
+      0.05,
+      0.51,
+      -0.79,
+      0.66,
+      -0.64,
+      0.02,
+      -0.81,
+      -1.16,
+      -1.18,
+      -0.13,
+      -0.16,
+      -0.8,
+      0.15,
+      0.39,
+      -0.58,
+      1.01,
+      -0.86,
+      -1.01
+    ],
+    "threshold": 0.4,
+    "train": {
+      "wins": 110,
+      "losses": 87,
+      "pushes": 8,
+      "skipped": 60,
+      "n": 197,
+      "pct": 55.84
+    },
+    "holdout": {
+      "wins": 82,
+      "losses": 58,
+      "pushes": 3,
+      "skipped": 24,
+      "n": 140,
+      "pct": 58.57
+    },
+    "all": {
+      "wins": 192,
+      "losses": 145,
+      "pushes": 11,
+      "decisions": 337,
+      "pct": 56.97
+    }
+  },
+  "limitations": [
+    "Candidate weights were randomized and not based on calibrated statistical probabilities",
+    "The all-week winner selected on 2026 outcomes is retrospectively overfit",
+    "Potential in-season lookahead in fixed BASE ratings",
+    "Prior-game features omit scores from some excluded matchups",
+    "Historical odds are not timestamp-confirmed closing lines",
+    "No evidence of 65% or 73% at required game coverage"
+  ]
+}
