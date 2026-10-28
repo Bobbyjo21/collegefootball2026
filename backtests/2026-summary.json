@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "asOf": "2026-10-28T05:59:44.483Z",
+  "asOf": "2026-10-28T13:19:09.229Z",
   "method": "Current simulator Balanced mode, pre-week cumulative stats, prior completed games only; preseason fixed BASE ratings and talent priors. Target score (analytic model), not a random Monte Carlo draw. Recorded CFBD provider spread, not necessarily verified closing timestamp.",
   "games": 434,
   "wins": 205,
@@ -111,20 +111,14 @@
     },
     {
       "week": 1,
-      "away": "Merrimack",
-      "home": "Delaware",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 1,
-      "away": "Bethune-Cookman",
-      "home": "UCF",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 1,
       "away": "West Georgia",
       "home": "Kennesaw State",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 1,
+      "away": "Merrimack",
+      "home": "Delaware",
       "reason": "Team absent from site ratings"
     },
     {
@@ -135,8 +129,8 @@
     },
     {
       "week": 1,
-      "away": "Arkansas-Pine Bluff",
-      "home": "Missouri",
+      "away": "Bethune-Cookman",
+      "home": "UCF",
       "reason": "Team absent from site ratings"
     },
     {
@@ -147,14 +141,14 @@
     },
     {
       "week": 1,
-      "away": "Idaho",
-      "home": "Utah",
+      "away": "Arkansas-Pine Bluff",
+      "home": "Missouri",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 1,
-      "away": "Indiana State",
-      "home": "Purdue",
+      "away": "Idaho",
+      "home": "Utah",
       "reason": "Team absent from site ratings"
     },
     {
@@ -165,14 +159,20 @@
     },
     {
       "week": 1,
+      "away": "Indiana State",
+      "home": "Purdue",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 1,
       "away": "Long Island University",
       "home": "Kansas",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 1,
-      "away": "Tarleton State",
-      "home": "Bowling Green",
+      "away": "Bryant",
+      "home": "Army",
       "reason": "Team absent from site ratings"
     },
     {
@@ -189,14 +189,14 @@
     },
     {
       "week": 1,
-      "away": "Bryant",
-      "home": "Army",
+      "away": "Tarleton State",
+      "home": "Bowling Green",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 1,
-      "away": "Duquesne",
-      "home": "Air Force",
+      "away": "Southeast Missouri State",
+      "home": "Iowa State",
       "reason": "Team absent from site ratings"
     },
     {
@@ -207,8 +207,8 @@
     },
     {
       "week": 1,
-      "away": "Southeast Missouri State",
-      "home": "Iowa State",
+      "away": "Duquesne",
+      "home": "Air Force",
       "reason": "Team absent from site ratings"
     },
     {
@@ -225,8 +225,8 @@
     },
     {
       "week": 1,
-      "away": "Towson",
-      "home": "Navy",
+      "away": "The Citadel",
+      "home": "Charlotte",
       "reason": "Team absent from site ratings"
     },
     {
@@ -237,8 +237,8 @@
     },
     {
       "week": 1,
-      "away": "The Citadel",
-      "home": "Charlotte",
+      "away": "Towson",
+      "home": "Navy",
       "reason": "Team absent from site ratings"
     },
     {
@@ -279,8 +279,32 @@
     },
     {
       "week": 1,
+      "away": "SE Louisiana",
+      "home": "South Alabama",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 1,
+      "away": "Eastern Kentucky",
+      "home": "Jacksonville State",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 1,
       "away": "Idaho State",
       "home": "Utah State",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 1,
+      "away": "Murray State",
+      "home": "Middle Tennessee",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 1,
+      "away": "Nicholls",
+      "home": "Kansas State",
       "reason": "Team absent from site ratings"
     },
     {
@@ -303,38 +327,8 @@
     },
     {
       "week": 1,
-      "away": "Nicholls",
-      "home": "Kansas State",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 1,
-      "away": "Eastern Kentucky",
-      "home": "Jacksonville State",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 1,
-      "away": "Murray State",
-      "home": "Middle Tennessee",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 1,
       "away": "Austin Peay",
       "home": "Vanderbilt",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 1,
-      "away": "SE Louisiana",
-      "home": "South Alabama",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 1,
-      "away": "VMI",
-      "home": "Virginia Tech",
       "reason": "Team absent from site ratings"
     },
     {
@@ -345,8 +339,8 @@
     },
     {
       "week": 1,
-      "away": "South Dakota State",
-      "home": "Northwestern",
+      "away": "VMI",
+      "home": "Virginia Tech",
       "reason": "Team absent from site ratings"
     },
     {
@@ -369,20 +363,26 @@
     },
     {
       "week": 1,
+      "away": "South Dakota State",
+      "home": "Northwestern",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 1,
       "away": "Mercyhurst",
       "home": "New Mexico State",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 1,
-      "away": "Northern Arizona",
-      "home": "Arizona",
+      "away": "Portland State",
+      "home": "San Diego State",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 1,
-      "away": "Portland State",
-      "home": "San Diego State",
+      "away": "Northern Arizona",
+      "home": "Arizona",
       "reason": "Team absent from site ratings"
     },
     {
@@ -405,6 +405,12 @@
     },
     {
       "week": 2,
+      "away": "Villanova",
+      "home": "Louisville",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 2,
       "away": "Norfolk State",
       "home": "Virginia",
       "reason": "Team absent from site ratings"
@@ -413,18 +419,6 @@
       "week": 2,
       "away": "Richmond",
       "home": "NC State",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 2,
-      "away": "Villanova",
-      "home": "Louisville",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 2,
-      "away": "Wofford",
-      "home": "Kent State",
       "reason": "Team absent from site ratings"
     },
     {
@@ -447,26 +441,32 @@
     },
     {
       "week": 2,
-      "away": "Howard",
-      "home": "Indiana",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 2,
       "away": "Wagner",
       "home": "James Madison",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 2,
-      "away": "Colgate",
-      "home": "Central Michigan",
+      "away": "Howard",
+      "home": "Indiana",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 2,
+      "away": "Wofford",
+      "home": "Kent State",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 2,
       "away": "Holy Cross",
       "home": "Miami (OH)",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 2,
+      "away": "Colgate",
+      "home": "Central Michigan",
       "reason": "Team absent from site ratings"
     },
     {
@@ -483,14 +483,14 @@
     },
     {
       "week": 2,
-      "away": "Central Connecticut",
-      "home": "Toledo",
+      "away": "Weber State",
+      "home": "Colorado",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 2,
-      "away": "Robert Morris",
-      "home": "Akron",
+      "away": "Central Connecticut",
+      "home": "Toledo",
       "reason": "Team absent from site ratings"
     },
     {
@@ -501,8 +501,8 @@
     },
     {
       "week": 2,
-      "away": "Weber State",
-      "home": "Colorado",
+      "away": "Robert Morris",
+      "home": "Akron",
       "reason": "Team absent from site ratings"
     },
     {
@@ -519,14 +519,14 @@
     },
     {
       "week": 2,
-      "away": "Northern Colorado",
-      "home": "Wyoming",
+      "away": "Mercyhurst",
+      "home": "New Mexico",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 2,
-      "away": "Mercyhurst",
-      "home": "New Mexico",
+      "away": "Northern Colorado",
+      "home": "Wyoming",
       "reason": "Team absent from site ratings"
     },
     {
@@ -543,32 +543,8 @@
     },
     {
       "week": 2,
-      "away": "Towson",
-      "home": "South Carolina",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 2,
       "away": "Southern",
       "home": "Houston",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 2,
-      "away": "Lindenwood",
-      "home": "Missouri State",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 2,
-      "away": "West Georgia",
-      "home": "Arkansas State",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 2,
-      "away": "Southern Utah",
-      "home": "Colorado State",
       "reason": "Team absent from site ratings"
     },
     {
@@ -579,8 +555,32 @@
     },
     {
       "week": 2,
+      "away": "West Georgia",
+      "home": "Arkansas State",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 2,
       "away": "Western Carolina",
       "home": "Cincinnati",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 2,
+      "away": "Lindenwood",
+      "home": "Missouri State",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 2,
+      "away": "Southern Utah",
+      "home": "Colorado State",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 2,
+      "away": "Towson",
+      "home": "South Carolina",
       "reason": "Team absent from site ratings"
     },
     {
@@ -639,20 +639,14 @@
     },
     {
       "week": 3,
-      "away": "Southern Illinois",
-      "home": "Illinois",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 3,
       "away": "Maine",
       "home": "Boston College",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 3,
-      "away": "Stonehill",
-      "home": "Massachusetts",
+      "away": "Southern Illinois",
+      "home": "Illinois",
       "reason": "Team absent from site ratings"
     },
     {
@@ -665,6 +659,12 @@
       "week": 3,
       "away": "Wagner",
       "home": "California",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 3,
+      "away": "Stonehill",
+      "home": "Massachusetts",
       "reason": "Team absent from site ratings"
     },
     {
@@ -687,18 +687,6 @@
     },
     {
       "week": 3,
-      "away": "Murray State",
-      "home": "Oklahoma State",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 3,
-      "away": "UT Martin",
-      "home": "Memphis",
-      "reason": "Team absent from site ratings"
-    },
-    {
-      "week": 3,
       "away": "Nicholls",
       "home": "Sam Houston",
       "reason": "Team absent from site ratings"
@@ -707,6 +695,18 @@
       "week": 3,
       "away": "Delaware State",
       "home": "South Florida",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 3,
+      "away": "Murray State",
+      "home": "Oklahoma State",
+      "reason": "Team absent from site ratings"
+    },
+    {
+      "week": 3,
+      "away": "UT Martin",
+      "home": "Memphis",
       "reason": "Team absent from site ratings"
     },
     {
@@ -765,14 +765,14 @@
     },
     {
       "week": 4,
-      "away": "Stonehill",
-      "home": "Ohio",
+      "away": "Gardner-Webb",
+      "home": "Marshall",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 4,
-      "away": "Gardner-Webb",
-      "home": "Marshall",
+      "away": "Stonehill",
+      "home": "Ohio",
       "reason": "Team absent from site ratings"
     },
     {
@@ -795,14 +795,14 @@
     },
     {
       "week": 4,
-      "away": "Incarnate Word",
-      "home": "Texas State",
+      "away": "Long Island University",
+      "home": "Florida International",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 4,
-      "away": "Long Island University",
-      "home": "Florida International",
+      "away": "Incarnate Word",
+      "home": "Texas State",
       "reason": "Team absent from site ratings"
     },
     {
@@ -831,14 +831,14 @@
     },
     {
       "week": 5,
-      "away": "Eastern Michigan",
-      "home": "Massachusetts",
+      "away": "Samford",
+      "home": "UAB",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 5,
-      "away": "Samford",
-      "home": "UAB",
+      "away": "Eastern Michigan",
+      "home": "Massachusetts",
       "reason": "Team absent from site ratings"
     },
     {
@@ -879,14 +879,14 @@
     },
     {
       "week": 7,
-      "away": "The Citadel",
-      "home": "Texas A&M",
+      "away": "Massachusetts",
+      "home": "Buffalo",
       "reason": "Team absent from site ratings"
     },
     {
       "week": 7,
-      "away": "Massachusetts",
-      "home": "Buffalo",
+      "away": "The Citadel",
+      "home": "Texas A&M",
       "reason": "Team absent from site ratings"
     },
     {
