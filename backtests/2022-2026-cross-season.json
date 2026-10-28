@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-27T12:38:05.831Z",
+  "generatedAt": "2026-10-28T13:29:14.236Z",
   "source": "CFBD 2022-2026 games/lines/coaches",
   "yearCounts": {
     "2023": 865,
     "2024": 858,
     "2025": 888,
-    "2026": 566
+    "2026": 568
   },
   "design": "2022 is warm-up; only data prior to each kickoff enters features. 2023-2025 train; 2026 holdout untouched during selection. Historical bookmaker spreads not assured timestamped closing.",
   "featureNames": [
@@ -51,12 +51,12 @@
       "accuracy": 53.16
     },
     "test": {
-      "wins": 227,
-      "losses": 210,
+      "wins": 228,
+      "losses": 211,
       "pushes": 10,
       "skipped": 119,
-      "decisions": 437,
-      "accuracy": 51.95
+      "decisions": 439,
+      "accuracy": 51.94
     }
   },
   "baseline": {
@@ -67,10 +67,10 @@
       "accuracy": 50.57
     },
     "test": {
-      "wins": 303,
-      "losses": 249,
+      "wins": 304,
+      "losses": 250,
       "pushes": 14,
-      "accuracy": 54.89
+      "accuracy": 54.87
     }
   },
   "limitations": [
