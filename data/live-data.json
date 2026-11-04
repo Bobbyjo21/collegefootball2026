@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-03T17:52:46.978Z",
+  "updatedAt": "2026-11-04T02:23:27.593Z",
   "sources": {
     "cfbd": true,
     "weather": "Open-Meteo at simulation time"
@@ -24365,18 +24365,18 @@
       "awayPoints": 31
     },
     {
-      "id": 401860890,
+      "id": 401856685,
       "week": 3,
       "seasonType": "regular",
       "startDate": "2026-09-19T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3820,
-      "venue": "Gesa Field",
-      "homeTeam": "Washington State",
-      "awayTeam": "Duquesne",
-      "homePoints": 48,
-      "awayPoints": 7
+      "venueId": 3657,
+      "venue": "Bryant-Denny Stadium",
+      "homeTeam": "Alabama",
+      "awayTeam": "Florida State",
+      "homePoints": 50,
+      "awayPoints": 36
     },
     {
       "id": 401858457,
@@ -24393,18 +24393,18 @@
       "awayPoints": 42
     },
     {
-      "id": 401856685,
+      "id": 401860890,
       "week": 3,
       "seasonType": "regular",
       "startDate": "2026-09-19T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3657,
-      "venue": "Bryant-Denny Stadium",
-      "homeTeam": "Alabama",
-      "awayTeam": "Florida State",
-      "homePoints": 50,
-      "awayPoints": 36
+      "venueId": 3820,
+      "venue": "Gesa Field",
+      "homeTeam": "Washington State",
+      "awayTeam": "Duquesne",
+      "homePoints": 48,
+      "awayPoints": 7
     },
     {
       "id": 401856801,
@@ -25135,6 +25135,20 @@
       "awayPoints": 24
     },
     {
+      "id": 401856813,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 4727,
+      "venue": "McLane Stadium",
+      "homeTeam": "Baylor",
+      "awayTeam": "Colorado",
+      "homePoints": 23,
+      "awayPoints": 13
+    },
+    {
       "id": 401866425,
       "week": 4,
       "seasonType": "regular",
@@ -25149,18 +25163,18 @@
       "awayPoints": 13
     },
     {
-      "id": 401856813,
+      "id": 401858236,
       "week": 4,
       "seasonType": "regular",
       "startDate": "2026-09-26T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 4727,
-      "venue": "McLane Stadium",
-      "homeTeam": "Baylor",
-      "awayTeam": "Colorado",
-      "homePoints": 23,
-      "awayPoints": 13
+      "venueId": 3752,
+      "venue": "Acrisure Stadium",
+      "homeTeam": "Pittsburgh",
+      "awayTeam": "Bucknell",
+      "homePoints": 59,
+      "awayPoints": 0
     },
     {
       "id": 401856704,
@@ -25205,48 +25219,6 @@
       "awayPoints": 30
     },
     {
-      "id": 401858242,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3615,
-      "venue": "Alumni Stadium (Chestnut Hill, MA)",
-      "homeTeam": "Boston College",
-      "awayTeam": "Virginia Tech",
-      "homePoints": 14,
-      "awayPoints": 21
-    },
-    {
-      "id": 401856805,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3784,
-      "venue": "Jones AT&T Stadium",
-      "homeTeam": "Texas Tech",
-      "awayTeam": "Sam Houston",
-      "homePoints": 49,
-      "awayPoints": 14
-    },
-    {
-      "id": 401858236,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3752,
-      "venue": "Acrisure Stadium",
-      "homeTeam": "Pittsburgh",
-      "awayTeam": "Bucknell",
-      "homePoints": 59,
-      "awayPoints": 0
-    },
-    {
       "id": 401860893,
       "week": 4,
       "seasonType": "regular",
@@ -25259,6 +25231,20 @@
       "awayTeam": "San Diego State",
       "homePoints": 41,
       "awayPoints": 16
+    },
+    {
+      "id": 401858242,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3615,
+      "venue": "Alumni Stadium (Chestnut Hill, MA)",
+      "homeTeam": "Boston College",
+      "awayTeam": "Virginia Tech",
+      "homePoints": 14,
+      "awayPoints": 21
     },
     {
       "id": 401860896,
@@ -25287,6 +25273,20 @@
       "awayTeam": "UNLV",
       "homePoints": 10,
       "awayPoints": 38
+    },
+    {
+      "id": 401856805,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3784,
+      "venue": "Jones AT&T Stadium",
+      "homeTeam": "Texas Tech",
+      "awayTeam": "Sam Houston",
+      "homePoints": 49,
+      "awayPoints": 14
     },
     {
       "id": 401864576,
@@ -25331,20 +25331,6 @@
       "awayPoints": 54
     },
     {
-      "id": 401864511,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T18:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 4246,
-      "venue": "Center Parc Stadium",
-      "homeTeam": "Georgia State",
-      "awayTeam": "Northern Illinois",
-      "homePoints": 35,
-      "awayPoints": 14
-    },
-    {
       "id": 401858467,
       "week": 4,
       "seasonType": "regular",
@@ -25357,6 +25343,20 @@
       "awayTeam": "Notre Dame",
       "homePoints": 10,
       "awayPoints": 49
+    },
+    {
+      "id": 401864511,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T18:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 4246,
+      "venue": "Center Parc Stadium",
+      "homeTeam": "Georgia State",
+      "awayTeam": "Northern Illinois",
+      "homePoints": 35,
+      "awayPoints": 14
     },
     {
       "id": 401864510,
@@ -25387,76 +25387,6 @@
       "awayPoints": 7
     },
     {
-      "id": 401861970,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3996,
-      "venue": "Yager Stadium",
-      "homeTeam": "Miami (OH)",
-      "awayTeam": "UConn",
-      "homePoints": 24,
-      "awayPoints": 21
-    },
-    {
-      "id": 401864579,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3601,
-      "venue": "Aggie Memorial Stadium",
-      "homeTeam": "New Mexico State",
-      "awayTeam": "New Mexico",
-      "homePoints": 18,
-      "awayPoints": 42
-    },
-    {
-      "id": 401858244,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3982,
-      "venue": "Wallace Wade Stadium",
-      "homeTeam": "Duke",
-      "awayTeam": "William & Mary",
-      "homePoints": 62,
-      "awayPoints": 7
-    },
-    {
-      "id": 401856700,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3917,
-      "venue": "Sanford Stadium",
-      "homeTeam": "Georgia",
-      "awayTeam": "Oklahoma",
-      "homePoints": 41,
-      "awayPoints": 13
-    },
-    {
-      "id": 401866426,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3965,
-      "venue": "UB Stadium",
-      "homeTeam": "Buffalo",
-      "awayTeam": "Robert Morris",
-      "homePoints": 31,
-      "awayPoints": 28
-    },
-    {
       "id": 401866428,
       "week": 4,
       "seasonType": "regular",
@@ -25471,32 +25401,18 @@
       "awayPoints": 7
     },
     {
-      "id": 401858463,
+      "id": 401868188,
       "week": 4,
       "seasonType": "regular",
       "startDate": "2026-09-26T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3558,
-      "venue": "Michigan Stadium",
-      "homeTeam": "Michigan",
-      "awayTeam": "Iowa",
-      "homePoints": 19,
-      "awayPoints": 20
-    },
-    {
-      "id": 401856699,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3634,
-      "venue": "Ben Hill Griffin Stadium",
-      "homeTeam": "Florida",
-      "awayTeam": "Ole Miss",
-      "homePoints": 52,
-      "awayPoints": 28
+      "venueId": 3775,
+      "venue": "Joan C. Edwards Stadium",
+      "homeTeam": "Marshall",
+      "awayTeam": "Gardner-Webb",
+      "homePoints": 36,
+      "awayPoints": 35
     },
     {
       "id": 401856815,
@@ -25527,6 +25443,76 @@
       "awayPoints": 31
     },
     {
+      "id": 401861970,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3996,
+      "venue": "Yager Stadium",
+      "homeTeam": "Miami (OH)",
+      "awayTeam": "UConn",
+      "homePoints": 24,
+      "awayPoints": 21
+    },
+    {
+      "id": 401858244,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3982,
+      "venue": "Wallace Wade Stadium",
+      "homeTeam": "Duke",
+      "awayTeam": "William & Mary",
+      "homePoints": 62,
+      "awayPoints": 7
+    },
+    {
+      "id": 401864579,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3601,
+      "venue": "Aggie Memorial Stadium",
+      "homeTeam": "New Mexico State",
+      "awayTeam": "New Mexico",
+      "homePoints": 18,
+      "awayPoints": 42
+    },
+    {
+      "id": 401866426,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3965,
+      "venue": "UB Stadium",
+      "homeTeam": "Buffalo",
+      "awayTeam": "Robert Morris",
+      "homePoints": 31,
+      "awayPoints": 28
+    },
+    {
+      "id": 401856700,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3917,
+      "venue": "Sanford Stadium",
+      "homeTeam": "Georgia",
+      "awayTeam": "Oklahoma",
+      "homePoints": 41,
+      "awayPoints": 13
+    },
+    {
       "id": 401860897,
       "week": 4,
       "seasonType": "regular",
@@ -25541,18 +25527,32 @@
       "awayPoints": 32
     },
     {
-      "id": 401868188,
+      "id": 401856699,
       "week": 4,
       "seasonType": "regular",
       "startDate": "2026-09-26T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3775,
-      "venue": "Joan C. Edwards Stadium",
-      "homeTeam": "Marshall",
-      "awayTeam": "Gardner-Webb",
-      "homePoints": 36,
-      "awayPoints": 35
+      "venueId": 3634,
+      "venue": "Ben Hill Griffin Stadium",
+      "homeTeam": "Florida",
+      "awayTeam": "Ole Miss",
+      "homePoints": 52,
+      "awayPoints": 28
+    },
+    {
+      "id": 401858463,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3558,
+      "venue": "Michigan Stadium",
+      "homeTeam": "Michigan",
+      "awayTeam": "Iowa",
+      "homePoints": 19,
+      "awayPoints": 20
     },
     {
       "id": 401856806,
@@ -25597,20 +25597,6 @@
       "awayPoints": 15
     },
     {
-      "id": 401858466,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T21:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3632,
-      "venue": "Beaver Stadium",
-      "homeTeam": "Penn State",
-      "awayTeam": "Wisconsin",
-      "homePoints": 20,
-      "awayPoints": 24
-    },
-    {
       "id": 401862785,
       "week": 4,
       "seasonType": "regular",
@@ -25637,6 +25623,48 @@
       "awayTeam": "Nebraska",
       "homePoints": 13,
       "awayPoints": 31
+    },
+    {
+      "id": 401858466,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T21:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3632,
+      "venue": "Beaver Stadium",
+      "homeTeam": "Penn State",
+      "awayTeam": "Wisconsin",
+      "homePoints": 20,
+      "awayPoints": 24
+    },
+    {
+      "id": 401869961,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T22:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3918,
+      "venue": "S.B. Ballard Stadium",
+      "homeTeam": "Old Dominion",
+      "awayTeam": "James Madison",
+      "homePoints": 20,
+      "awayPoints": 46
+    },
+    {
+      "id": 401858239,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T22:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3923,
+      "venue": "Scott Stadium",
+      "homeTeam": "Virginia",
+      "awayTeam": "Delaware",
+      "homePoints": 42,
+      "awayPoints": 3
     },
     {
       "id": 401867909,
@@ -25667,34 +25695,6 @@
       "awayPoints": 10
     },
     {
-      "id": 401858239,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T22:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3923,
-      "venue": "Scott Stadium",
-      "homeTeam": "Virginia",
-      "awayTeam": "Delaware",
-      "homePoints": 42,
-      "awayPoints": 3
-    },
-    {
-      "id": 401869961,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T22:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3918,
-      "venue": "S.B. Ballard Stadium",
-      "homeTeam": "Old Dominion",
-      "awayTeam": "James Madison",
-      "homePoints": 20,
-      "awayPoints": 46
-    },
-    {
       "id": 401858238,
       "week": 4,
       "seasonType": "regular",
@@ -25723,18 +25723,18 @@
       "awayPoints": 34
     },
     {
-      "id": 401870745,
+      "id": 401856814,
       "week": 4,
       "seasonType": "regular",
       "startDate": "2026-09-26T23:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3796,
-      "venue": "Houchens Industries-L.T. Smith Stadium",
-      "homeTeam": "Western Kentucky",
-      "awayTeam": "Mercyhurst",
-      "homePoints": 52,
-      "awayPoints": 7
+      "venueId": 3854,
+      "venue": "Nippert Stadium",
+      "homeTeam": "Cincinnati",
+      "awayTeam": "Kansas State",
+      "homePoints": 31,
+      "awayPoints": 26
     },
     {
       "id": 401856881,
@@ -25751,6 +25751,34 @@
       "awayPoints": 41
     },
     {
+      "id": 401870745,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3796,
+      "venue": "Houchens Industries-L.T. Smith Stadium",
+      "homeTeam": "Western Kentucky",
+      "awayTeam": "Mercyhurst",
+      "homePoints": 52,
+      "awayPoints": 7
+    },
+    {
+      "id": 401871048,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-26T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3662,
+      "venue": "AmFirst Stadium",
+      "homeTeam": "Jacksonville State",
+      "awayTeam": "Middle Tennessee",
+      "homePoints": 23,
+      "awayPoints": 13
+    },
+    {
       "id": 401862784,
       "week": 4,
       "seasonType": "regular",
@@ -25763,34 +25791,6 @@
       "awayTeam": "Southern Miss",
       "homePoints": 24,
       "awayPoints": 21
-    },
-    {
-      "id": 401869931,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3625,
-      "venue": "Centennial Bank Stadium",
-      "homeTeam": "Arkansas State",
-      "awayTeam": "Kennesaw State",
-      "homePoints": 17,
-      "awayPoints": 14
-    },
-    {
-      "id": 401856814,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-26T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3854,
-      "venue": "Nippert Stadium",
-      "homeTeam": "Cincinnati",
-      "awayTeam": "Kansas State",
-      "homePoints": 31,
-      "awayPoints": 26
     },
     {
       "id": 401856696,
@@ -25807,18 +25807,18 @@
       "awayPoints": 18
     },
     {
-      "id": 401871048,
+      "id": 401869931,
       "week": 4,
       "seasonType": "regular",
       "startDate": "2026-09-26T23:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3662,
-      "venue": "AmFirst Stadium",
-      "homeTeam": "Jacksonville State",
-      "awayTeam": "Middle Tennessee",
-      "homePoints": 23,
-      "awayPoints": 13
+      "venueId": 3625,
+      "venue": "Centennial Bank Stadium",
+      "homeTeam": "Arkansas State",
+      "awayTeam": "Kennesaw State",
+      "homePoints": 17,
+      "awayPoints": 14
     },
     {
       "id": 401858469,
@@ -25919,20 +25919,6 @@
       "awayPoints": 24
     },
     {
-      "id": 401862782,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-27T00:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3817,
-      "venue": "Malone Stadium",
-      "homeTeam": "UL Monroe",
-      "awayTeam": "Florida Atlantic",
-      "homePoints": 17,
-      "awayPoints": 45
-    },
-    {
       "id": 401856697,
       "week": 4,
       "seasonType": "regular",
@@ -25947,18 +25933,18 @@
       "awayPoints": 6
     },
     {
-      "id": 401860895,
+      "id": 401862782,
       "week": 4,
       "seasonType": "regular",
-      "startDate": "2026-09-27T01:00:00.000Z",
+      "startDate": "2026-09-27T00:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3946,
-      "venue": "Sun Bowl",
-      "homeTeam": "UTEP",
-      "awayTeam": "Oregon State",
-      "homePoints": 7,
-      "awayPoints": 33
+      "venueId": 3817,
+      "venue": "Malone Stadium",
+      "homeTeam": "UL Monroe",
+      "awayTeam": "Florida Atlantic",
+      "homePoints": 17,
+      "awayPoints": 45
     },
     {
       "id": 401858241,
@@ -25973,6 +25959,20 @@
       "awayTeam": "Missouri State",
       "homePoints": 34,
       "awayPoints": 24
+    },
+    {
+      "id": 401860895,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-27T01:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3946,
+      "venue": "Sun Bowl",
+      "homeTeam": "UTEP",
+      "awayTeam": "Oregon State",
+      "homePoints": 7,
+      "awayPoints": 33
     },
     {
       "id": 401866429,
@@ -26003,20 +26003,6 @@
       "awayPoints": 24
     },
     {
-      "id": 401858240,
-      "week": 4,
-      "seasonType": "regular",
-      "startDate": "2026-09-27T02:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3940,
-      "venue": "Stanford Stadium",
-      "homeTeam": "Stanford",
-      "awayTeam": "Georgia Tech",
-      "homePoints": 34,
-      "awayPoints": 27
-    },
-    {
       "id": 401864509,
       "week": 4,
       "seasonType": "regular",
@@ -26029,6 +26015,20 @@
       "awayTeam": "Air Force",
       "homePoints": 33,
       "awayPoints": 36
+    },
+    {
+      "id": 401858240,
+      "week": 4,
+      "seasonType": "regular",
+      "startDate": "2026-09-27T02:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3940,
+      "venue": "Stanford Stadium",
+      "homeTeam": "Stanford",
+      "awayTeam": "Georgia Tech",
+      "homePoints": 34,
+      "awayPoints": 27
     },
     {
       "id": 401858470,
@@ -26129,18 +26129,32 @@
       "awayPoints": 59
     },
     {
-      "id": 401858252,
+      "id": 401856819,
       "week": 5,
       "seasonType": "regular",
       "startDate": "2026-10-03T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3892,
-      "venue": "Pratt & Whitney Stadium",
-      "homeTeam": "UConn",
-      "awayTeam": "Syracuse",
-      "homePoints": 41,
-      "awayPoints": 42
+      "venueId": 4728,
+      "venue": "TDECU Stadium",
+      "homeTeam": "Houston",
+      "awayTeam": "UCF",
+      "homePoints": 27,
+      "awayPoints": 17
+    },
+    {
+      "id": 401856707,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3693,
+      "venue": "Davis Wade Stadium",
+      "homeTeam": "Mississippi State",
+      "awayTeam": "Alabama",
+      "homePoints": 23,
+      "awayPoints": 56
     },
     {
       "id": 401856807,
@@ -26171,32 +26185,18 @@
       "awayPoints": 37
     },
     {
-      "id": 401856819,
+      "id": 401858252,
       "week": 5,
       "seasonType": "regular",
       "startDate": "2026-10-03T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 4728,
-      "venue": "TDECU Stadium",
-      "homeTeam": "Houston",
-      "awayTeam": "UCF",
-      "homePoints": 27,
-      "awayPoints": 17
-    },
-    {
-      "id": 401856707,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3693,
-      "venue": "Davis Wade Stadium",
-      "homeTeam": "Mississippi State",
-      "awayTeam": "Alabama",
-      "homePoints": 23,
-      "awayPoints": 56
+      "venueId": 3892,
+      "venue": "Pratt & Whitney Stadium",
+      "homeTeam": "UConn",
+      "awayTeam": "Syracuse",
+      "homePoints": 41,
+      "awayPoints": 42
     },
     {
       "id": 401858474,
@@ -26211,20 +26211,6 @@
       "awayTeam": "Michigan",
       "homePoints": 20,
       "awayPoints": 14
-    },
-    {
-      "id": 401858246,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3735,
-      "venue": "Gerald J. Ford Stadium",
-      "homeTeam": "SMU",
-      "awayTeam": "Boston College",
-      "homePoints": 25,
-      "awayPoints": 16
     },
     {
       "id": 401856822,
@@ -26253,6 +26239,20 @@
       "awayTeam": "Navy",
       "homePoints": 14,
       "awayPoints": 9
+    },
+    {
+      "id": 401858246,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3735,
+      "venue": "Gerald J. Ford Stadium",
+      "homeTeam": "SMU",
+      "awayTeam": "Boston College",
+      "homePoints": 25,
+      "awayPoints": 16
     },
     {
       "id": 401858251,
@@ -26521,20 +26521,6 @@
       "awayPoints": 17
     },
     {
-      "id": 401858475,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T20:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3834,
-      "venue": "Memorial Stadium (Lincoln, NE)",
-      "homeTeam": "Nebraska",
-      "awayTeam": "Maryland",
-      "homePoints": 48,
-      "awayPoints": 23
-    },
-    {
       "id": 401864514,
       "week": 5,
       "seasonType": "regular",
@@ -26547,6 +26533,20 @@
       "awayTeam": "UTEP",
       "homePoints": 61,
       "awayPoints": 7
+    },
+    {
+      "id": 401858475,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T20:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3834,
+      "venue": "Memorial Stadium (Lincoln, NE)",
+      "homeTeam": "Nebraska",
+      "awayTeam": "Maryland",
+      "homePoints": 48,
+      "awayPoints": 23
     },
     {
       "id": 401858472,
@@ -26577,20 +26577,6 @@
       "awayPoints": 35
     },
     {
-      "id": 401862790,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T22:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3715,
-      "venue": "FAU Stadium",
-      "homeTeam": "Florida Atlantic",
-      "awayTeam": "Texas Southern",
-      "homePoints": 66,
-      "awayPoints": 10
-    },
-    {
       "id": 401860899,
       "week": 5,
       "seasonType": "regular",
@@ -26605,46 +26591,18 @@
       "awayPoints": 56
     },
     {
-      "id": 401856818,
+      "id": 401862790,
       "week": 5,
       "seasonType": "regular",
-      "startDate": "2026-10-03T23:00:00.000Z",
+      "startDate": "2026-10-03T22:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3616,
-      "venue": "Amon G. Carter Stadium",
-      "homeTeam": "TCU",
-      "awayTeam": "BYU",
-      "homePoints": 10,
-      "awayPoints": 17
-    },
-    {
-      "id": 401856711,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3795,
-      "venue": "Kyle Field",
-      "homeTeam": "Texas A&M",
-      "awayTeam": "Arkansas",
-      "homePoints": 34,
-      "awayPoints": 7
-    },
-    {
-      "id": 401869942,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3654,
-      "venue": "Brooks Stadium (SC)",
-      "homeTeam": "Coastal Carolina",
-      "awayTeam": "Georgia Southern",
-      "homePoints": 24,
-      "awayPoints": 31
+      "venueId": 3715,
+      "venue": "FAU Stadium",
+      "homeTeam": "Florida Atlantic",
+      "awayTeam": "Texas Southern",
+      "homePoints": 66,
+      "awayPoints": 10
     },
     {
       "id": 401862788,
@@ -26661,6 +26619,34 @@
       "awayPoints": 16
     },
     {
+      "id": 401869942,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3654,
+      "venue": "Brooks Stadium (SC)",
+      "homeTeam": "Coastal Carolina",
+      "awayTeam": "Georgia Southern",
+      "homePoints": 24,
+      "awayPoints": 31
+    },
+    {
+      "id": 401856711,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3795,
+      "venue": "Kyle Field",
+      "homeTeam": "Texas A&M",
+      "awayTeam": "Arkansas",
+      "homePoints": 34,
+      "awayPoints": 7
+    },
+    {
       "id": 401871089,
       "week": 5,
       "seasonType": "regular",
@@ -26673,6 +26659,34 @@
       "awayTeam": "UL Monroe",
       "homePoints": 52,
       "awayPoints": 35
+    },
+    {
+      "id": 401856818,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3616,
+      "venue": "Amon G. Carter Stadium",
+      "homeTeam": "TCU",
+      "awayTeam": "BYU",
+      "homePoints": 10,
+      "awayPoints": 17
+    },
+    {
+      "id": 401858478,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T23:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 477,
+      "venue": "Los Angeles Memorial Coliseum",
+      "homeTeam": "USC",
+      "awayTeam": "Washington",
+      "homePoints": 25,
+      "awayPoints": 21
     },
     {
       "id": 401862792,
@@ -26689,18 +26703,18 @@
       "awayPoints": 17
     },
     {
-      "id": 401869842,
+      "id": 401858249,
       "week": 5,
       "seasonType": "regular",
       "startDate": "2026-10-03T23:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3776,
-      "venue": "Joe Aillet Stadium",
-      "homeTeam": "Louisiana Tech",
-      "awayTeam": "Army",
-      "homePoints": 31,
-      "awayPoints": 29
+      "venueId": 3836,
+      "venue": "Memorial Stadium (Clemson, SC)",
+      "homeTeam": "Clemson",
+      "awayTeam": "Miami",
+      "homePoints": 13,
+      "awayPoints": 41
     },
     {
       "id": 401856821,
@@ -26714,6 +26728,20 @@
       "homeTeam": "Colorado",
       "awayTeam": "Texas Tech",
       "homePoints": 7,
+      "awayPoints": 29
+    },
+    {
+      "id": 401869842,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-03T23:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3776,
+      "venue": "Joe Aillet Stadium",
+      "homeTeam": "Louisiana Tech",
+      "awayTeam": "Army",
+      "homePoints": 31,
       "awayPoints": 29
     },
     {
@@ -26731,34 +26759,6 @@
       "awayPoints": 18
     },
     {
-      "id": 401858478,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T23:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 477,
-      "venue": "Los Angeles Memorial Coliseum",
-      "homeTeam": "USC",
-      "awayTeam": "Washington",
-      "homePoints": 25,
-      "awayPoints": 21
-    },
-    {
-      "id": 401858249,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-03T23:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3836,
-      "venue": "Memorial Stadium (Clemson, SC)",
-      "homeTeam": "Clemson",
-      "awayTeam": "Miami",
-      "homePoints": 13,
-      "awayPoints": 41
-    },
-    {
       "id": 401856706,
       "week": 5,
       "seasonType": "regular",
@@ -26771,20 +26771,6 @@
       "awayTeam": "McNeese",
       "homePoints": 63,
       "awayPoints": 14
-    },
-    {
-      "id": 401858477,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-04T00:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 6577,
-      "venue": "SHI Stadium",
-      "homeTeam": "Rutgers",
-      "awayTeam": "Indiana",
-      "homePoints": 15,
-      "awayPoints": 47
     },
     {
       "id": 401869932,
@@ -26801,6 +26787,20 @@
       "awayPoints": 20
     },
     {
+      "id": 401858477,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-04T00:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 6577,
+      "venue": "SHI Stadium",
+      "homeTeam": "Rutgers",
+      "awayTeam": "Indiana",
+      "homePoints": 15,
+      "awayPoints": 47
+    },
+    {
       "id": 401860921,
       "week": 5,
       "seasonType": "regular",
@@ -26815,20 +26815,6 @@
       "awayPoints": 26
     },
     {
-      "id": 401856817,
-      "week": 5,
-      "seasonType": "regular",
-      "startDate": "2026-10-04T02:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3947,
-      "venue": "Mountain America Stadium",
-      "homeTeam": "Arizona State",
-      "awayTeam": "Baylor",
-      "homePoints": 19,
-      "awayPoints": 55
-    },
-    {
       "id": 401860900,
       "week": 5,
       "seasonType": "regular",
@@ -26841,6 +26827,20 @@
       "awayTeam": "Texas State",
       "homePoints": 31,
       "awayPoints": 29
+    },
+    {
+      "id": 401856817,
+      "week": 5,
+      "seasonType": "regular",
+      "startDate": "2026-10-04T02:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3947,
+      "venue": "Mountain America Stadium",
+      "homeTeam": "Arizona State",
+      "awayTeam": "Baylor",
+      "homePoints": 19,
+      "awayPoints": 55
     },
     {
       "id": 401856820,
@@ -26941,20 +26941,6 @@
       "awayPoints": 3
     },
     {
-      "id": 401869933,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-08T23:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3625,
-      "venue": "Centennial Bank Stadium",
-      "homeTeam": "Arkansas State",
-      "awayTeam": "South Alabama",
-      "homePoints": 49,
-      "awayPoints": 56
-    },
-    {
       "id": 401862794,
       "week": 6,
       "seasonType": "regular",
@@ -26967,6 +26953,20 @@
       "awayTeam": "South Florida",
       "homePoints": 31,
       "awayPoints": 24
+    },
+    {
+      "id": 401869933,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-08T23:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3625,
+      "venue": "Centennial Bank Stadium",
+      "homeTeam": "Arkansas State",
+      "awayTeam": "South Alabama",
+      "homePoints": 49,
+      "awayPoints": 56
     },
     {
       "id": 401858254,
@@ -26983,20 +26983,6 @@
       "awayPoints": 20
     },
     {
-      "id": 401860922,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T01:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3905,
-      "venue": "Maverik Stadium",
-      "homeTeam": "Utah State",
-      "awayTeam": "Washington State",
-      "homePoints": 17,
-      "awayPoints": 16
-    },
-    {
       "id": 401858487,
       "week": 6,
       "seasonType": "regular",
@@ -27009,6 +26995,20 @@
       "awayTeam": "Iowa",
       "homePoints": 24,
       "awayPoints": 41
+    },
+    {
+      "id": 401860922,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T01:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3905,
+      "venue": "Maverik Stadium",
+      "homeTeam": "Utah State",
+      "awayTeam": "Washington State",
+      "homePoints": 17,
+      "awayPoints": 16
     },
     {
       "id": 401864519,
@@ -27039,18 +27039,18 @@
       "awayPoints": 10
     },
     {
-      "id": 401856824,
+      "id": 401858256,
       "week": 6,
       "seasonType": "regular",
       "startDate": "2026-10-10T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3646,
-      "venue": "Boone Pickens Stadium",
-      "homeTeam": "Oklahoma State",
-      "awayTeam": "UCF",
-      "homePoints": 42,
-      "awayPoints": 28
+      "venueId": 3752,
+      "venue": "Acrisure Stadium",
+      "homeTeam": "Pittsburgh",
+      "awayTeam": "North Carolina",
+      "homePoints": 17,
+      "awayPoints": 21
     },
     {
       "id": 401862795,
@@ -27067,20 +27067,6 @@
       "awayPoints": 17
     },
     {
-      "id": 401858256,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3752,
-      "venue": "Acrisure Stadium",
-      "homeTeam": "Pittsburgh",
-      "awayTeam": "North Carolina",
-      "homePoints": 17,
-      "awayPoints": 21
-    },
-    {
       "id": 401858481,
       "week": 6,
       "seasonType": "regular",
@@ -27093,20 +27079,6 @@
       "awayTeam": "Indiana",
       "homePoints": 17,
       "awayPoints": 20
-    },
-    {
-      "id": 401856716,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3838,
-      "venue": "Memorial Stadium",
-      "homeTeam": "Missouri",
-      "awayTeam": "Texas A&M",
-      "homePoints": 27,
-      "awayPoints": 6
     },
     {
       "id": 401866436,
@@ -27123,20 +27095,6 @@
       "awayPoints": 10
     },
     {
-      "id": 401858260,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3670,
-      "venue": "Carter-Finley Stadium",
-      "homeTeam": "NC State",
-      "awayTeam": "Wake Forest",
-      "homePoints": 14,
-      "awayPoints": 38
-    },
-    {
       "id": 401856823,
       "week": 6,
       "seasonType": "regular",
@@ -27149,6 +27107,48 @@
       "awayTeam": "Arizona",
       "homePoints": 31,
       "awayPoints": 52
+    },
+    {
+      "id": 401856824,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3646,
+      "venue": "Boone Pickens Stadium",
+      "homeTeam": "Oklahoma State",
+      "awayTeam": "UCF",
+      "homePoints": 42,
+      "awayPoints": 28
+    },
+    {
+      "id": 401856716,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3838,
+      "venue": "Memorial Stadium",
+      "homeTeam": "Missouri",
+      "awayTeam": "Texas A&M",
+      "homePoints": 27,
+      "awayPoints": 6
+    },
+    {
+      "id": 401858260,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3670,
+      "venue": "Carter-Finley Stadium",
+      "homeTeam": "NC State",
+      "awayTeam": "Wake Forest",
+      "homePoints": 14,
+      "awayPoints": 38
     },
     {
       "id": 401858482,
@@ -27179,20 +27179,6 @@
       "awayPoints": 38
     },
     {
-      "id": 401869843,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T17:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3792,
-      "venue": "Kidd Brewer Stadium",
-      "homeTeam": "App State",
-      "awayTeam": "Old Dominion",
-      "homePoints": 3,
-      "awayPoints": 10
-    },
-    {
       "id": 401862797,
       "week": 6,
       "seasonType": "regular",
@@ -27205,6 +27191,20 @@
       "awayTeam": "Rice",
       "homePoints": 28,
       "awayPoints": 12
+    },
+    {
+      "id": 401869843,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T17:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3792,
+      "venue": "Kidd Brewer Stadium",
+      "homeTeam": "App State",
+      "awayTeam": "Old Dominion",
+      "homePoints": 3,
+      "awayPoints": 10
     },
     {
       "id": 401866440,
@@ -27221,18 +27221,18 @@
       "awayPoints": 20
     },
     {
-      "id": 401858484,
+      "id": 401862796,
       "week": 6,
       "seasonType": "regular",
       "startDate": "2026-10-10T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3626,
-      "venue": "Autzen Stadium",
-      "homeTeam": "Oregon",
-      "awayTeam": "UCLA",
-      "homePoints": 15,
-      "awayPoints": 17
+      "venueId": 3825,
+      "venue": "DATCU Stadium",
+      "homeTeam": "North Texas",
+      "awayTeam": "Charlotte",
+      "homePoints": 50,
+      "awayPoints": 10
     },
     {
       "id": 401856718,
@@ -27291,20 +27291,6 @@
       "awayPoints": 20
     },
     {
-      "id": 401858480,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3936,
-      "venue": "Spartan Stadium",
-      "homeTeam": "Michigan State",
-      "awayTeam": "Illinois",
-      "homePoints": 37,
-      "awayPoints": 38
-    },
-    {
       "id": 401866438,
       "week": 6,
       "seasonType": "regular",
@@ -27347,6 +27333,20 @@
       "awayPoints": 25
     },
     {
+      "id": 401858480,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3936,
+      "venue": "Spartan Stadium",
+      "homeTeam": "Michigan State",
+      "awayTeam": "Illinois",
+      "homePoints": 37,
+      "awayPoints": 38
+    },
+    {
       "id": 401856825,
       "week": 6,
       "seasonType": "regular",
@@ -27361,32 +27361,18 @@
       "awayPoints": 35
     },
     {
-      "id": 401866435,
+      "id": 401858484,
       "week": 6,
       "seasonType": "regular",
       "startDate": "2026-10-10T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3768,
-      "venue": "InfoCision Stadium",
-      "homeTeam": "Akron",
-      "awayTeam": "Eastern Michigan",
-      "homePoints": 23,
-      "awayPoints": 25
-    },
-    {
-      "id": 401862796,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3825,
-      "venue": "DATCU Stadium",
-      "homeTeam": "North Texas",
-      "awayTeam": "Charlotte",
-      "homePoints": 50,
-      "awayPoints": 10
+      "venueId": 3626,
+      "venue": "Autzen Stadium",
+      "homeTeam": "Oregon",
+      "awayTeam": "UCLA",
+      "homePoints": 15,
+      "awayPoints": 17
     },
     {
       "id": 401856717,
@@ -27415,6 +27401,20 @@
       "awayTeam": "Kent State",
       "homePoints": 38,
       "awayPoints": 7
+    },
+    {
+      "id": 401866435,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3768,
+      "venue": "InfoCision Stadium",
+      "homeTeam": "Akron",
+      "awayTeam": "Eastern Michigan",
+      "homePoints": 23,
+      "awayPoints": 25
     },
     {
       "id": 401861964,
@@ -27473,20 +27473,6 @@
       "awayPoints": 14
     },
     {
-      "id": 401869943,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3775,
-      "venue": "Joan C. Edwards Stadium",
-      "homeTeam": "Marshall",
-      "awayTeam": "Coastal Carolina",
-      "homePoints": 21,
-      "awayPoints": 27
-    },
-    {
       "id": 401856715,
       "week": 6,
       "seasonType": "regular",
@@ -27501,20 +27487,6 @@
       "awayPoints": 34
     },
     {
-      "id": 401864517,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-10T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3946,
-      "venue": "Sun Bowl",
-      "homeTeam": "UTEP",
-      "awayTeam": "Nevada",
-      "homePoints": 13,
-      "awayPoints": 30
-    },
-    {
       "id": 401864518,
       "week": 6,
       "seasonType": "regular",
@@ -27527,6 +27499,34 @@
       "awayTeam": "North Dakota State",
       "homePoints": 13,
       "awayPoints": 7
+    },
+    {
+      "id": 401869943,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3775,
+      "venue": "Joan C. Edwards Stadium",
+      "homeTeam": "Marshall",
+      "awayTeam": "Coastal Carolina",
+      "homePoints": 21,
+      "awayPoints": 27
+    },
+    {
+      "id": 401864517,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-10T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3946,
+      "venue": "Sun Bowl",
+      "homeTeam": "UTEP",
+      "awayTeam": "Nevada",
+      "homePoints": 13,
+      "awayPoints": 30
     },
     {
       "id": 401862798,
@@ -27627,20 +27627,6 @@
       "awayPoints": 25
     },
     {
-      "id": 401858486,
-      "week": 6,
-      "seasonType": "regular",
-      "startDate": "2026-10-11T00:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3907,
-      "venue": "Ross-Ade Stadium",
-      "homeTeam": "Purdue",
-      "awayTeam": "Minnesota",
-      "homePoints": 41,
-      "awayPoints": 13
-    },
-    {
       "id": 401856827,
       "week": 6,
       "seasonType": "regular",
@@ -27653,6 +27639,20 @@
       "awayTeam": "Kansas",
       "homePoints": 41,
       "awayPoints": 24
+    },
+    {
+      "id": 401858486,
+      "week": 6,
+      "seasonType": "regular",
+      "startDate": "2026-10-11T00:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3907,
+      "venue": "Ross-Ade Stadium",
+      "homeTeam": "Purdue",
+      "awayTeam": "Minnesota",
+      "homePoints": 41,
+      "awayPoints": 13
     },
     {
       "id": 401860901,
@@ -27795,20 +27795,6 @@
       "awayPoints": 17
     },
     {
-      "id": 401869844,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T00:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3654,
-      "venue": "Brooks Stadium (SC)",
-      "homeTeam": "Coastal Carolina",
-      "awayTeam": "App State",
-      "homePoints": 32,
-      "awayPoints": 35
-    },
-    {
       "id": 401858493,
       "week": 7,
       "seasonType": "regular",
@@ -27823,74 +27809,18 @@
       "awayPoints": 38
     },
     {
-      "id": 401858268,
+      "id": 401869844,
       "week": 7,
       "seasonType": "regular",
-      "startDate": "2026-10-17T16:00:00.000Z",
+      "startDate": "2026-10-17T00:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3735,
-      "venue": "Gerald J. Ford Stadium",
-      "homeTeam": "SMU",
-      "awayTeam": "Virginia",
-      "homePoints": 23,
-      "awayPoints": 13
-    },
-    {
-      "id": 401858488,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3830,
-      "venue": "Memorial Stadium (Bloomington, IN)",
-      "homeTeam": "Indiana",
-      "awayTeam": "Ohio State",
-      "homePoints": 15,
-      "awayPoints": 19
-    },
-    {
-      "id": 401862802,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3841,
-      "venue": "Michie Stadium",
-      "homeTeam": "Army",
-      "awayTeam": "Florida Atlantic",
-      "homePoints": 56,
-      "awayPoints": 24
-    },
-    {
-      "id": 401869957,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3651,
-      "venue": "Bridgeforth Stadium",
-      "homeTeam": "James Madison",
-      "awayTeam": "Georgia State",
-      "homePoints": 49,
-      "awayPoints": 22
-    },
-    {
-      "id": 401856720,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3958,
-      "venue": "Tiger Stadium (LA)",
-      "homeTeam": "LSU",
-      "awayTeam": "Mississippi State",
-      "homePoints": 31,
-      "awayPoints": 0
+      "venueId": 3654,
+      "venue": "Brooks Stadium (SC)",
+      "homeTeam": "Coastal Carolina",
+      "awayTeam": "App State",
+      "homePoints": 32,
+      "awayPoints": 35
     },
     {
       "id": 401858267,
@@ -27907,18 +27837,18 @@
       "awayPoints": 21
     },
     {
-      "id": 401858491,
+      "id": 401856720,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3936,
-      "venue": "Spartan Stadium",
-      "homeTeam": "Michigan State",
-      "awayTeam": "Northwestern",
-      "homePoints": 21,
-      "awayPoints": 24
+      "venueId": 3958,
+      "venue": "Tiger Stadium (LA)",
+      "homeTeam": "LSU",
+      "awayTeam": "Mississippi State",
+      "homePoints": 31,
+      "awayPoints": 0
     },
     {
       "id": 401856724,
@@ -27935,18 +27865,32 @@
       "awayPoints": 27
     },
     {
-      "id": 401858261,
+      "id": 401858491,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3836,
-      "venue": "Memorial Stadium (Clemson, SC)",
-      "homeTeam": "Clemson",
-      "awayTeam": "Charleston Southern",
-      "homePoints": 37,
-      "awayPoints": 0
+      "venueId": 3936,
+      "venue": "Spartan Stadium",
+      "homeTeam": "Michigan State",
+      "awayTeam": "Northwestern",
+      "homePoints": 21,
+      "awayPoints": 24
+    },
+    {
+      "id": 401858268,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3735,
+      "venue": "Gerald J. Ford Stadium",
+      "homeTeam": "SMU",
+      "awayTeam": "Virginia",
+      "homePoints": 23,
+      "awayPoints": 13
     },
     {
       "id": 401856830,
@@ -27960,6 +27904,34 @@
       "homeTeam": "Kansas State",
       "awayTeam": "Kansas",
       "homePoints": 35,
+      "awayPoints": 24
+    },
+    {
+      "id": 401866441,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3700,
+      "venue": "Doyt L. Perry Stadium",
+      "homeTeam": "Bowling Green",
+      "awayTeam": "Ball State",
+      "homePoints": 31,
+      "awayPoints": 32
+    },
+    {
+      "id": 401862802,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3841,
+      "venue": "Michie Stadium",
+      "homeTeam": "Army",
+      "awayTeam": "Florida Atlantic",
+      "homePoints": 56,
       "awayPoints": 24
     },
     {
@@ -27977,18 +27949,46 @@
       "awayPoints": 42
     },
     {
-      "id": 401866441,
+      "id": 401858261,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3700,
-      "venue": "Doyt L. Perry Stadium",
-      "homeTeam": "Bowling Green",
-      "awayTeam": "Ball State",
-      "homePoints": 31,
-      "awayPoints": 32
+      "venueId": 3836,
+      "venue": "Memorial Stadium (Clemson, SC)",
+      "homeTeam": "Clemson",
+      "awayTeam": "Charleston Southern",
+      "homePoints": 37,
+      "awayPoints": 0
+    },
+    {
+      "id": 401869957,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3651,
+      "venue": "Bridgeforth Stadium",
+      "homeTeam": "James Madison",
+      "awayTeam": "Georgia State",
+      "homePoints": 49,
+      "awayPoints": 22
+    },
+    {
+      "id": 401858488,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3830,
+      "venue": "Memorial Stadium (Bloomington, IN)",
+      "homeTeam": "Indiana",
+      "awayTeam": "Ohio State",
+      "homePoints": 15,
+      "awayPoints": 19
     },
     {
       "id": 401858489,
@@ -28003,20 +28003,6 @@
       "awayTeam": "Rutgers",
       "homePoints": 30,
       "awayPoints": 37
-    },
-    {
-      "id": 401862803,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T17:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3806,
-      "venue": "Lincoln Financial Field",
-      "homeTeam": "Temple",
-      "awayTeam": "Charlotte",
-      "homePoints": 31,
-      "awayPoints": 38
     },
     {
       "id": 401866442,
@@ -28047,6 +28033,20 @@
       "awayPoints": 0
     },
     {
+      "id": 401862803,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T17:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3806,
+      "venue": "Lincoln Financial Field",
+      "homeTeam": "Temple",
+      "awayTeam": "Charlotte",
+      "homePoints": 31,
+      "awayPoints": 38
+    },
+    {
       "id": 401866443,
       "week": 7,
       "seasonType": "regular",
@@ -28061,32 +28061,32 @@
       "awayPoints": 21
     },
     {
-      "id": 401864524,
+      "id": 401866444,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3713,
-      "venue": "Falcon Stadium",
-      "homeTeam": "Air Force",
-      "awayTeam": "UNLV",
-      "homePoints": 41,
-      "awayPoints": 31
+      "venueId": 3912,
+      "venue": "Rynearson Stadium",
+      "homeTeam": "Eastern Michigan",
+      "awayTeam": "Toledo",
+      "homePoints": 14,
+      "awayPoints": 34
     },
     {
-      "id": 401858490,
+      "id": 401866478,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3558,
-      "venue": "Michigan Stadium",
-      "homeTeam": "Michigan",
-      "awayTeam": "Penn State",
-      "homePoints": 21,
-      "awayPoints": 18
+      "venueId": 3996,
+      "venue": "Yager Stadium",
+      "homeTeam": "Miami (OH)",
+      "awayTeam": "Akron",
+      "homePoints": 34,
+      "awayPoints": 14
     },
     {
       "id": 401858266,
@@ -28103,18 +28103,74 @@
       "awayPoints": 24
     },
     {
-      "id": 401866478,
+      "id": 401856721,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3996,
-      "venue": "Yager Stadium",
-      "homeTeam": "Miami (OH)",
-      "awayTeam": "Akron",
-      "homePoints": 34,
-      "awayPoints": 14
+      "venueId": 3974,
+      "venue": "Vaught-Hemingway Stadium",
+      "homeTeam": "Ole Miss",
+      "awayTeam": "Missouri",
+      "homePoints": 31,
+      "awayPoints": 3
+    },
+    {
+      "id": 401864522,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3984,
+      "venue": "War Memorial Stadium",
+      "homeTeam": "Wyoming",
+      "awayTeam": "Northern Illinois",
+      "homePoints": 41,
+      "awayPoints": 23
+    },
+    {
+      "id": 401856723,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3853,
+      "venue": "Neyland Stadium",
+      "homeTeam": "Tennessee",
+      "awayTeam": "Alabama",
+      "homePoints": 26,
+      "awayPoints": 10
+    },
+    {
+      "id": 401858490,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3558,
+      "venue": "Michigan Stadium",
+      "homeTeam": "Michigan",
+      "awayTeam": "Penn State",
+      "homePoints": 21,
+      "awayPoints": 18
+    },
+    {
+      "id": 401856719,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3917,
+      "venue": "Sanford Stadium",
+      "homeTeam": "Georgia",
+      "awayTeam": "Auburn",
+      "homePoints": 24,
+      "awayPoints": 27
     },
     {
       "id": 401856828,
@@ -28145,74 +28201,18 @@
       "awayPoints": 24
     },
     {
-      "id": 401866444,
+      "id": 401864524,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3912,
-      "venue": "Rynearson Stadium",
-      "homeTeam": "Eastern Michigan",
-      "awayTeam": "Toledo",
-      "homePoints": 14,
-      "awayPoints": 34
-    },
-    {
-      "id": 401856723,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3853,
-      "venue": "Neyland Stadium",
-      "homeTeam": "Tennessee",
-      "awayTeam": "Alabama",
-      "homePoints": 26,
-      "awayPoints": 10
-    },
-    {
-      "id": 401864522,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3984,
-      "venue": "War Memorial Stadium",
-      "homeTeam": "Wyoming",
-      "awayTeam": "Northern Illinois",
+      "venueId": 3713,
+      "venue": "Falcon Stadium",
+      "homeTeam": "Air Force",
+      "awayTeam": "UNLV",
       "homePoints": 41,
-      "awayPoints": 23
-    },
-    {
-      "id": 401856719,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3917,
-      "venue": "Sanford Stadium",
-      "homeTeam": "Georgia",
-      "awayTeam": "Auburn",
-      "homePoints": 24,
-      "awayPoints": 27
-    },
-    {
-      "id": 401856721,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3974,
-      "venue": "Vaught-Hemingway Stadium",
-      "homeTeam": "Ole Miss",
-      "awayTeam": "Missouri",
-      "homePoints": 31,
-      "awayPoints": 3
+      "awayPoints": 31
     },
     {
       "id": 401862805,
@@ -28257,18 +28257,32 @@
       "awayPoints": 30
     },
     {
-      "id": 401856726,
+      "id": 401856832,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T23:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3973,
-      "venue": "FirstBank Stadium",
-      "homeTeam": "Vanderbilt",
-      "awayTeam": "Arkansas",
-      "homePoints": 21,
-      "awayPoints": 31
+      "venueId": 4727,
+      "venue": "McLane Stadium",
+      "homeTeam": "Baylor",
+      "awayTeam": "TCU",
+      "homePoints": 6,
+      "awayPoints": 17
+    },
+    {
+      "id": 401858263,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3948,
+      "venue": "Hard Rock Stadium",
+      "homeTeam": "Miami",
+      "awayTeam": "Florida State",
+      "homePoints": 43,
+      "awayPoints": 35
     },
     {
       "id": 401862806,
@@ -28285,6 +28299,20 @@
       "awayPoints": 2
     },
     {
+      "id": 401856726,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-17T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3973,
+      "venue": "FirstBank Stadium",
+      "homeTeam": "Vanderbilt",
+      "awayTeam": "Arkansas",
+      "homePoints": 21,
+      "awayPoints": 31
+    },
+    {
       "id": 401864520,
       "week": 7,
       "seasonType": "regular",
@@ -28296,20 +28324,6 @@
       "homeTeam": "North Dakota State",
       "awayTeam": "Nevada",
       "homePoints": 31,
-      "awayPoints": 17
-    },
-    {
-      "id": 401856832,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 4727,
-      "venue": "McLane Stadium",
-      "homeTeam": "Baylor",
-      "awayTeam": "TCU",
-      "homePoints": 6,
       "awayPoints": 17
     },
     {
@@ -28327,32 +28341,18 @@
       "awayPoints": 23
     },
     {
-      "id": 401858263,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3948,
-      "venue": "Hard Rock Stadium",
-      "homeTeam": "Miami",
-      "awayTeam": "Florida State",
-      "homePoints": 43,
-      "awayPoints": 35
-    },
-    {
-      "id": 401856722,
+      "id": 401856809,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T23:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3835,
-      "venue": "Memorial Stadium (Norman, OK)",
-      "homeTeam": "Oklahoma",
-      "awayTeam": "Kentucky",
-      "homePoints": 13,
-      "awayPoints": 21
+      "venueId": 3801,
+      "venue": "LaVell Edwards Stadium",
+      "homeTeam": "BYU",
+      "awayTeam": "Notre Dame",
+      "homePoints": 28,
+      "awayPoints": 24
     },
     {
       "id": 401858265,
@@ -28369,32 +28369,18 @@
       "awayPoints": 34
     },
     {
-      "id": 401856831,
+      "id": 401858262,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T23:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 4728,
-      "venue": "TDECU Stadium",
-      "homeTeam": "Houston",
-      "awayTeam": "Oklahoma State",
-      "homePoints": 35,
-      "awayPoints": 32
-    },
-    {
-      "id": 401856809,
-      "week": 7,
-      "seasonType": "regular",
-      "startDate": "2026-10-17T23:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3801,
-      "venue": "LaVell Edwards Stadium",
-      "homeTeam": "BYU",
-      "awayTeam": "Notre Dame",
-      "homePoints": 28,
-      "awayPoints": 24
+      "venueId": 3940,
+      "venue": "Stanford Stadium",
+      "homeTeam": "Stanford",
+      "awayTeam": "Elon",
+      "homePoints": 34,
+      "awayPoints": 7
     },
     {
       "id": 401858494,
@@ -28411,32 +28397,32 @@
       "awayPoints": 7
     },
     {
-      "id": 401858262,
+      "id": 401856831,
       "week": 7,
       "seasonType": "regular",
       "startDate": "2026-10-17T23:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3940,
-      "venue": "Stanford Stadium",
-      "homeTeam": "Stanford",
-      "awayTeam": "Elon",
-      "homePoints": 34,
-      "awayPoints": 7
+      "venueId": 4728,
+      "venue": "TDECU Stadium",
+      "homeTeam": "Houston",
+      "awayTeam": "Oklahoma State",
+      "homePoints": 35,
+      "awayPoints": 32
     },
     {
-      "id": 401862804,
+      "id": 401856722,
       "week": 7,
       "seasonType": "regular",
-      "startDate": "2026-10-18T00:00:00.000Z",
+      "startDate": "2026-10-17T23:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3604,
-      "venue": "Alamodome",
-      "homeTeam": "UTSA",
-      "awayTeam": "Navy",
-      "homePoints": 38,
-      "awayPoints": 34
+      "venueId": 3835,
+      "venue": "Memorial Stadium (Norman, OK)",
+      "homeTeam": "Oklahoma",
+      "awayTeam": "Kentucky",
+      "homePoints": 13,
+      "awayPoints": 21
     },
     {
       "id": 401871091,
@@ -28451,6 +28437,20 @@
       "awayTeam": "Louisiana Tech",
       "homePoints": 0,
       "awayPoints": 24
+    },
+    {
+      "id": 401862804,
+      "week": 7,
+      "seasonType": "regular",
+      "startDate": "2026-10-18T00:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3604,
+      "venue": "Alamodome",
+      "homeTeam": "UTSA",
+      "awayTeam": "Navy",
+      "homePoints": 38,
+      "awayPoints": 34
     },
     {
       "id": 401864523,
@@ -28551,20 +28551,6 @@
       "awayPoints": 14
     },
     {
-      "id": 401871055,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-20T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 2031,
-      "venue": "Pitbull Stadium",
-      "homeTeam": "Florida International",
-      "awayTeam": "Middle Tennessee",
-      "homePoints": 23,
-      "awayPoints": 26
-    },
-    {
       "id": 401871069,
       "week": 8,
       "seasonType": "regular",
@@ -28577,6 +28563,20 @@
       "awayTeam": "Missouri State",
       "homePoints": 61,
       "awayPoints": 38
+    },
+    {
+      "id": 401871055,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-20T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 2031,
+      "venue": "Pitbull Stadium",
+      "homeTeam": "Florida International",
+      "awayTeam": "Middle Tennessee",
+      "homePoints": 23,
+      "awayPoints": 26
     },
     {
       "id": 401871092,
@@ -28649,20 +28649,6 @@
       "awayPoints": 34
     },
     {
-      "id": 401861965,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-23T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3892,
-      "venue": "Pratt & Whitney Stadium",
-      "homeTeam": "UConn",
-      "awayTeam": "Massachusetts",
-      "homePoints": 35,
-      "awayPoints": 16
-    },
-    {
       "id": 401858271,
       "week": 8,
       "seasonType": "regular",
@@ -28675,6 +28661,20 @@
       "awayTeam": "Duke",
       "homePoints": 16,
       "awayPoints": 19
+    },
+    {
+      "id": 401861965,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-23T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3892,
+      "venue": "Pratt & Whitney Stadium",
+      "homeTeam": "UConn",
+      "awayTeam": "Massachusetts",
+      "homePoints": 35,
+      "awayPoints": 16
     },
     {
       "id": 401862808,
@@ -28719,90 +28719,6 @@
       "awayPoints": 28
     },
     {
-      "id": 401856840,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3854,
-      "venue": "Nippert Stadium",
-      "homeTeam": "Cincinnati",
-      "awayTeam": "Texas Tech",
-      "homePoints": 37,
-      "awayPoints": 24
-    },
-    {
-      "id": 401858270,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3735,
-      "venue": "Gerald J. Ford Stadium",
-      "homeTeam": "SMU",
-      "awayTeam": "California",
-      "homePoints": 59,
-      "awayPoints": 20
-    },
-    {
-      "id": 401856728,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3785,
-      "venue": "Jordan-Hare Stadium",
-      "homeTeam": "Auburn",
-      "awayTeam": "LSU",
-      "homePoints": 17,
-      "awayPoints": 38
-    },
-    {
-      "id": 401858498,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 11823,
-      "venue": "Ryan Field",
-      "homeTeam": "Northwestern",
-      "awayTeam": "Rutgers",
-      "homePoints": 42,
-      "awayPoints": 14
-    },
-    {
-      "id": 401856841,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3616,
-      "venue": "Amon G. Carter Stadium",
-      "homeTeam": "TCU",
-      "awayTeam": "West Virginia",
-      "homePoints": 20,
-      "awayPoints": 24
-    },
-    {
-      "id": 401858274,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3948,
-      "venue": "Hard Rock Stadium",
-      "homeTeam": "Miami",
-      "awayTeam": "Pittsburgh",
-      "homePoints": 52,
-      "awayPoints": 23
-    },
-    {
       "id": 401866450,
       "week": 8,
       "seasonType": "regular",
@@ -28829,6 +28745,90 @@
       "awayTeam": "Indiana",
       "homePoints": 6,
       "awayPoints": 13
+    },
+    {
+      "id": 401858274,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3948,
+      "venue": "Hard Rock Stadium",
+      "homeTeam": "Miami",
+      "awayTeam": "Pittsburgh",
+      "homePoints": 52,
+      "awayPoints": 23
+    },
+    {
+      "id": 401856728,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3785,
+      "venue": "Jordan-Hare Stadium",
+      "homeTeam": "Auburn",
+      "awayTeam": "LSU",
+      "homePoints": 17,
+      "awayPoints": 38
+    },
+    {
+      "id": 401858270,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3735,
+      "venue": "Gerald J. Ford Stadium",
+      "homeTeam": "SMU",
+      "awayTeam": "California",
+      "homePoints": 59,
+      "awayPoints": 20
+    },
+    {
+      "id": 401856840,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3854,
+      "venue": "Nippert Stadium",
+      "homeTeam": "Cincinnati",
+      "awayTeam": "Texas Tech",
+      "homePoints": 37,
+      "awayPoints": 24
+    },
+    {
+      "id": 401856841,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3616,
+      "venue": "Amon G. Carter Stadium",
+      "homeTeam": "TCU",
+      "awayTeam": "West Virginia",
+      "homePoints": 20,
+      "awayPoints": 24
+    },
+    {
+      "id": 401858498,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 11823,
+      "venue": "Ryan Field",
+      "homeTeam": "Northwestern",
+      "awayTeam": "Rutgers",
+      "homePoints": 42,
+      "awayPoints": 14
     },
     {
       "id": 401862809,
@@ -28929,20 +28929,6 @@
       "awayPoints": 24
     },
     {
-      "id": 401856727,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3657,
-      "venue": "Bryant-Denny Stadium",
-      "homeTeam": "Alabama",
-      "awayTeam": "Texas A&M",
-      "homePoints": 31,
-      "awayPoints": 20
-    },
-    {
       "id": 401864526,
       "week": 8,
       "seasonType": "regular",
@@ -28955,6 +28941,20 @@
       "awayTeam": "Hawai'i",
       "homePoints": 21,
       "awayPoints": 56
+    },
+    {
+      "id": 401856727,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3657,
+      "venue": "Bryant-Denny Stadium",
+      "homeTeam": "Alabama",
+      "awayTeam": "Texas A&M",
+      "homePoints": 31,
+      "awayPoints": 20
     },
     {
       "id": 401862810,
@@ -29069,20 +29069,6 @@
       "awayPoints": 17
     },
     {
-      "id": 401866449,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T20:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3876,
-      "venue": "Peden Stadium",
-      "homeTeam": "Ohio",
-      "awayTeam": "Eastern Michigan",
-      "homePoints": 24,
-      "awayPoints": 20
-    },
-    {
       "id": 401871094,
       "week": 8,
       "seasonType": "regular",
@@ -29097,18 +29083,18 @@
       "awayPoints": 21
     },
     {
-      "id": 401869967,
+      "id": 401866449,
       "week": 8,
       "seasonType": "regular",
-      "startDate": "2026-10-24T21:00:00.000Z",
+      "startDate": "2026-10-24T20:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3815,
-      "venue": "M. M. Roberts Stadium",
-      "homeTeam": "Southern Miss",
-      "awayTeam": "Louisiana",
-      "homePoints": 35,
-      "awayPoints": 31
+      "venueId": 3876,
+      "venue": "Peden Stadium",
+      "homeTeam": "Ohio",
+      "awayTeam": "Eastern Michigan",
+      "homePoints": 24,
+      "awayPoints": 20
     },
     {
       "id": 401864528,
@@ -29123,6 +29109,20 @@
       "awayTeam": "San José State",
       "homePoints": 28,
       "awayPoints": 13
+    },
+    {
+      "id": 401869967,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T21:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3815,
+      "venue": "M. M. Roberts Stadium",
+      "homeTeam": "Southern Miss",
+      "awayTeam": "Louisiana",
+      "homePoints": 35,
+      "awayPoints": 31
     },
     {
       "id": 401871093,
@@ -29167,6 +29167,20 @@
       "awayPoints": 49
     },
     {
+      "id": 401869935,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3625,
+      "venue": "Centennial Bank Stadium",
+      "homeTeam": "Arkansas State",
+      "awayTeam": "Georgia State",
+      "homePoints": 38,
+      "awayPoints": 32
+    },
+    {
       "id": 401858276,
       "week": 8,
       "seasonType": "regular",
@@ -29195,74 +29209,18 @@
       "awayPoints": 24
     },
     {
-      "id": 401869935,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3625,
-      "venue": "Centennial Bank Stadium",
-      "homeTeam": "Arkansas State",
-      "awayTeam": "Georgia State",
-      "homePoints": 38,
-      "awayPoints": 32
-    },
-    {
-      "id": 401856838,
+      "id": 401856729,
       "week": 8,
       "seasonType": "regular",
       "startDate": "2026-10-24T23:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3619,
-      "venue": "Arizona Stadium",
-      "homeTeam": "Arizona",
-      "awayTeam": "Iowa State",
-      "homePoints": 39,
-      "awayPoints": 3
-    },
-    {
-      "id": 401858500,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T23:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 347,
-      "venue": "Camp Randall Stadium",
-      "homeTeam": "Wisconsin",
-      "awayTeam": "USC",
-      "homePoints": 24,
-      "awayPoints": 7
-    },
-    {
-      "id": 401858275,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T23:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3787,
-      "venue": "Kenan Stadium",
-      "homeTeam": "North Carolina",
-      "awayTeam": "Syracuse",
-      "homePoints": 30,
-      "awayPoints": 31
-    },
-    {
-      "id": 401856732,
-      "week": 8,
-      "seasonType": "regular",
-      "startDate": "2026-10-24T23:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3910,
-      "venue": "DKR-Texas Memorial Stadium",
-      "homeTeam": "Texas",
-      "awayTeam": "Ole Miss",
+      "venueId": 3683,
+      "venue": "Kroger Field",
+      "homeTeam": "Kentucky",
+      "awayTeam": "Vanderbilt",
       "homePoints": 34,
-      "awayPoints": 27
+      "awayPoints": 17
     },
     {
       "id": 401860906,
@@ -29279,18 +29237,60 @@
       "awayPoints": 17
     },
     {
-      "id": 401856729,
+      "id": 401858500,
       "week": 8,
       "seasonType": "regular",
       "startDate": "2026-10-24T23:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3683,
-      "venue": "Kroger Field",
-      "homeTeam": "Kentucky",
-      "awayTeam": "Vanderbilt",
+      "venueId": 347,
+      "venue": "Camp Randall Stadium",
+      "homeTeam": "Wisconsin",
+      "awayTeam": "USC",
+      "homePoints": 24,
+      "awayPoints": 7
+    },
+    {
+      "id": 401856732,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T23:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3910,
+      "venue": "DKR-Texas Memorial Stadium",
+      "homeTeam": "Texas",
+      "awayTeam": "Ole Miss",
       "homePoints": 34,
-      "awayPoints": 17
+      "awayPoints": 27
+    },
+    {
+      "id": 401856838,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T23:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3619,
+      "venue": "Arizona Stadium",
+      "homeTeam": "Arizona",
+      "awayTeam": "Iowa State",
+      "homePoints": 39,
+      "awayPoints": 3
+    },
+    {
+      "id": 401858275,
+      "week": 8,
+      "seasonType": "regular",
+      "startDate": "2026-10-24T23:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3787,
+      "venue": "Kenan Stadium",
+      "homeTeam": "North Carolina",
+      "awayTeam": "Syracuse",
+      "homePoints": 30,
+      "awayPoints": 31
     },
     {
       "id": 401862811,
@@ -29461,6 +29461,20 @@
       "awayPoints": 10
     },
     {
+      "id": 401858277,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3670,
+      "venue": "Carter-Finley Stadium",
+      "homeTeam": "NC State",
+      "awayTeam": "California",
+      "homePoints": 31,
+      "awayPoints": 10
+    },
+    {
       "id": 401866452,
       "week": 9,
       "seasonType": "regular",
@@ -29475,32 +29489,18 @@
       "awayPoints": 10
     },
     {
-      "id": 401858278,
+      "id": 401858502,
       "week": 9,
       "seasonType": "regular",
       "startDate": "2026-10-31T16:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 1964,
-      "venue": "JMA Wireless Dome",
-      "homeTeam": "Syracuse",
-      "awayTeam": "SMU",
+      "venueId": 3793,
+      "venue": "Kinnick Stadium",
+      "homeTeam": "Iowa",
+      "awayTeam": "Wisconsin",
       "homePoints": 30,
-      "awayPoints": 27
-    },
-    {
-      "id": 401858277,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3670,
-      "venue": "Carter-Finley Stadium",
-      "homeTeam": "NC State",
-      "awayTeam": "California",
-      "homePoints": 31,
-      "awayPoints": 10
+      "awayPoints": 0
     },
     {
       "id": 401856842,
@@ -29545,20 +29545,6 @@
       "awayPoints": 35
     },
     {
-      "id": 401858502,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T16:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3793,
-      "venue": "Kinnick Stadium",
-      "homeTeam": "Iowa",
-      "awayTeam": "Wisconsin",
-      "homePoints": 30,
-      "awayPoints": 0
-    },
-    {
       "id": 401858279,
       "week": 9,
       "seasonType": "regular",
@@ -29585,6 +29571,20 @@
       "awayTeam": "Illinois",
       "homePoints": 17,
       "awayPoints": 20
+    },
+    {
+      "id": 401858278,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T16:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 1964,
+      "venue": "JMA Wireless Dome",
+      "homeTeam": "Syracuse",
+      "awayTeam": "SMU",
+      "homePoints": 30,
+      "awayPoints": 27
     },
     {
       "id": 401858507,
@@ -29629,20 +29629,6 @@
       "awayPoints": 36
     },
     {
-      "id": 401869944,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T18:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 4246,
-      "venue": "Center Parc Stadium",
-      "homeTeam": "Georgia State",
-      "awayTeam": "Coastal Carolina",
-      "homePoints": 20,
-      "awayPoints": 31
-    },
-    {
       "id": 401856846,
       "week": 9,
       "seasonType": "regular",
@@ -29657,32 +29643,18 @@
       "awayPoints": 24
     },
     {
-      "id": 401871097,
+      "id": 401869944,
       "week": 9,
       "seasonType": "regular",
-      "startDate": "2026-10-31T19:00:00.000Z",
+      "startDate": "2026-10-31T18:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 6526,
-      "venue": "Hancock Whitney Stadium",
-      "homeTeam": "South Alabama",
-      "awayTeam": "Louisiana Tech",
+      "venueId": 4246,
+      "venue": "Center Parc Stadium",
+      "homeTeam": "Georgia State",
+      "awayTeam": "Coastal Carolina",
       "homePoints": 20,
-      "awayPoints": 35
-    },
-    {
-      "id": 401862815,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T19:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3699,
-      "venue": "Dowdy-Ficklen Stadium",
-      "homeTeam": "East Carolina",
-      "awayTeam": "Temple",
-      "homePoints": 17,
-      "awayPoints": 9
+      "awayPoints": 31
     },
     {
       "id": 401861966,
@@ -29699,6 +29671,34 @@
       "awayPoints": 26
     },
     {
+      "id": 401862815,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T19:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3699,
+      "venue": "Dowdy-Ficklen Stadium",
+      "homeTeam": "East Carolina",
+      "awayTeam": "Temple",
+      "homePoints": 17,
+      "awayPoints": 9
+    },
+    {
+      "id": 401871097,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T19:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 6526,
+      "venue": "Hancock Whitney Stadium",
+      "homeTeam": "South Alabama",
+      "awayTeam": "Louisiana Tech",
+      "homePoints": 20,
+      "awayPoints": 35
+    },
+    {
       "id": 401858283,
       "week": 9,
       "seasonType": "regular",
@@ -29711,62 +29711,6 @@
       "awayTeam": "Stanford",
       "homePoints": 52,
       "awayPoints": 24
-    },
-    {
-      "id": 401858501,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3830,
-      "venue": "Memorial Stadium (Bloomington, IN)",
-      "homeTeam": "Indiana",
-      "awayTeam": "Minnesota",
-      "homePoints": 23,
-      "awayPoints": 16
-    },
-    {
-      "id": 401860910,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3905,
-      "venue": "Maverik Stadium",
-      "homeTeam": "Utah State",
-      "awayTeam": "Colorado State",
-      "homePoints": 31,
-      "awayPoints": 14
-    },
-    {
-      "id": 401871059,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3992,
-      "venue": "Williams Stadium (VA)",
-      "homeTeam": "Liberty",
-      "awayTeam": "Florida International",
-      "homePoints": 49,
-      "awayPoints": 10
-    },
-    {
-      "id": 401871095,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3817,
-      "venue": "Malone Stadium",
-      "homeTeam": "UL Monroe",
-      "awayTeam": "Southern Miss",
-      "homePoints": 21,
-      "awayPoints": 35
     },
     {
       "id": 401856845,
@@ -29797,20 +29741,6 @@
       "awayPoints": 7
     },
     {
-      "id": 401858505,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T19:30:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3626,
-      "venue": "Autzen Stadium",
-      "homeTeam": "Oregon",
-      "awayTeam": "Northwestern",
-      "homePoints": 34,
-      "awayPoints": 26
-    },
-    {
       "id": 401856734,
       "week": 9,
       "seasonType": "regular",
@@ -29839,18 +29769,74 @@
       "awayPoints": 20
     },
     {
-      "id": 401856848,
+      "id": 401871095,
       "week": 9,
       "seasonType": "regular",
-      "startDate": "2026-10-31T19:45:00.000Z",
+      "startDate": "2026-10-31T19:30:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3854,
-      "venue": "Nippert Stadium",
-      "homeTeam": "Cincinnati",
-      "awayTeam": "Utah",
-      "homePoints": 25,
-      "awayPoints": 49
+      "venueId": 3817,
+      "venue": "Malone Stadium",
+      "homeTeam": "UL Monroe",
+      "awayTeam": "Southern Miss",
+      "homePoints": 21,
+      "awayPoints": 35
+    },
+    {
+      "id": 401871059,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3992,
+      "venue": "Williams Stadium (VA)",
+      "homeTeam": "Liberty",
+      "awayTeam": "Florida International",
+      "homePoints": 49,
+      "awayPoints": 10
+    },
+    {
+      "id": 401860910,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3905,
+      "venue": "Maverik Stadium",
+      "homeTeam": "Utah State",
+      "awayTeam": "Colorado State",
+      "homePoints": 31,
+      "awayPoints": 14
+    },
+    {
+      "id": 401858501,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3830,
+      "venue": "Memorial Stadium (Bloomington, IN)",
+      "homeTeam": "Indiana",
+      "awayTeam": "Minnesota",
+      "homePoints": 23,
+      "awayPoints": 16
+    },
+    {
+      "id": 401858505,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T19:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3626,
+      "venue": "Autzen Stadium",
+      "homeTeam": "Oregon",
+      "awayTeam": "Northwestern",
+      "homePoints": 34,
+      "awayPoints": 26
     },
     {
       "id": 401858284,
@@ -29867,6 +29853,20 @@
       "awayPoints": 7
     },
     {
+      "id": 401856848,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T19:45:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3854,
+      "venue": "Nippert Stadium",
+      "homeTeam": "Cincinnati",
+      "awayTeam": "Utah",
+      "homePoints": 25,
+      "awayPoints": 49
+    },
+    {
       "id": 401864529,
       "week": 9,
       "seasonType": "regular",
@@ -29879,20 +29879,6 @@
       "awayTeam": "New Mexico",
       "homePoints": 16,
       "awayPoints": 21
-    },
-    {
-      "id": 401856736,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T20:15:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3835,
-      "venue": "Memorial Stadium (Norman, OK)",
-      "homeTeam": "Oklahoma",
-      "awayTeam": "South Carolina",
-      "homePoints": 25,
-      "awayPoints": 42
     },
     {
       "id": 401858506,
@@ -29923,6 +29909,20 @@
       "awayPoints": 0
     },
     {
+      "id": 401856736,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T20:15:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3835,
+      "venue": "Memorial Stadium (Norman, OK)",
+      "homeTeam": "Oklahoma",
+      "awayTeam": "South Carolina",
+      "homePoints": 25,
+      "awayPoints": 42
+    },
+    {
       "id": 401869846,
       "week": 9,
       "seasonType": "regular",
@@ -29935,34 +29935,6 @@
       "awayTeam": "App State",
       "homePoints": 19,
       "awayPoints": 3
-    },
-    {
-      "id": 401858280,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 3697,
-      "venue": "Doak Campbell Stadium",
-      "homeTeam": "Florida State",
-      "awayTeam": "Clemson",
-      "homePoints": 24,
-      "awayPoints": 36
-    },
-    {
-      "id": 401860909,
-      "week": 9,
-      "seasonType": "regular",
-      "startDate": "2026-10-31T23:00:00.000Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 7311,
-      "venue": "Snapdragon Stadium",
-      "homeTeam": "San Diego State",
-      "awayTeam": "Washington State",
-      "homePoints": 26,
-      "awayPoints": 20
     },
     {
       "id": 401856847,
@@ -29979,18 +29951,32 @@
       "awayPoints": 49
     },
     {
-      "id": 401858282,
+      "id": 401860909,
       "week": 9,
       "seasonType": "regular",
-      "startDate": "2026-10-31T23:30:00.000Z",
+      "startDate": "2026-10-31T23:00:00.000Z",
       "completed": true,
       "neutralSite": false,
-      "venueId": 3787,
-      "venue": "Kenan Stadium",
-      "homeTeam": "North Carolina",
-      "awayTeam": "Miami",
-      "homePoints": 35,
-      "awayPoints": 38
+      "venueId": 7311,
+      "venue": "Snapdragon Stadium",
+      "homeTeam": "San Diego State",
+      "awayTeam": "Washington State",
+      "homePoints": 26,
+      "awayPoints": 20
+    },
+    {
+      "id": 401858280,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T23:00:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3697,
+      "venue": "Doak Campbell Stadium",
+      "homeTeam": "Florida State",
+      "awayTeam": "Clemson",
+      "homePoints": 24,
+      "awayPoints": 36
     },
     {
       "id": 401858509,
@@ -30033,6 +30019,20 @@
       "awayTeam": "Georgia Tech",
       "homePoints": 34,
       "awayPoints": 11
+    },
+    {
+      "id": 401858282,
+      "week": 9,
+      "seasonType": "regular",
+      "startDate": "2026-10-31T23:30:00.000Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 3787,
+      "venue": "Kenan Stadium",
+      "homeTeam": "North Carolina",
+      "awayTeam": "Miami",
+      "homePoints": 35,
+      "awayPoints": 38
     },
     {
       "id": 401856733,
